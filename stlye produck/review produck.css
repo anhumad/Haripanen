@@ -1,0 +1,540 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.review-and-ratings,
+.review-and-ratings * {
+  box-sizing: border-box;
+}
+.review-and-ratings {
+  background: #ffffff;
+  width: 360px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.base-appbar-rectangle {
+  width: 360px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 88.44%;
+  left: 8.89%;
+  width: 2.67%;
+  bottom: 23.44%;
+  top: 53.75%;
+  height: 22.81%;
+  overflow: visible;
+}
+.review-ratings {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 23.89%;
+  left: 21.39%;
+  width: 54.72%;
+  bottom: 22.5%;
+  top: 51.25%;
+  height: 26.25%;
+}
+.android-ui-status-bar-light {
+  width: 360px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.android-ui-status-bar-dark {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.background {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+._11-11 {
+  color: rgba(0, 0, 0, 0.54);
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8px;
+  top: calc(50% - 8px);
+  width: 37px;
+}
+.icons-device-network-wifi {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 86px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-device-signal-cellular-4-bar {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 66px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-device-battery-full {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 46px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.group-37032 {
+  position: absolute;
+  inset: 0;
+}
+.review-item {
+  width: 360px;
+  height: 207px;
+  position: static;
+}
+.rectangle-23 {
+  background: #ffffff;
+  width: 360px;
+  height: 207px;
+  position: absolute;
+  left: 0px;
+  top: 90px;
+}
+.group-107 {
+  width: 330.13px;
+  height: 97px;
+  position: static;
+}
+.group-103 {
+  width: 182.89px;
+  height: 42px;
+  position: static;
+}
+.group-102 {
+  width: 132px;
+  height: 36px;
+  position: static;
+}
+.haylie-aminoff {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 67px;
+  top: 113px;
+  width: 132px;
+}
+._32-minutes-ago {
+  color: #868889;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 67px;
+  top: 134px;
+  width: 86px;
+}
+.ellipse-18 {
+  border-radius: 50%;
+  width: 39.79px;
+  height: 42px;
+  position: absolute;
+  left: 16.11px;
+  top: 110px;
+}
+.line-12 {
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 1px 0 0 0;
+  width: 324.95px;
+  height: 0px;
+  position: absolute;
+  left: 16.11px;
+  top: 168px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.group-106 {
+  width: 329.24px;
+  height: 91px;
+  position: static;
+}
+.sayurnya-segar-dan-fresh-sesuai-pesanan-dan-pengiriman-cepat {
+  color: #868889;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 17px;
+  top: 174px;
+  width: 324.95px;
+  height: 33px;
+}
+.rating {
+  width: 94.24px;
+  height: 14.55px;
+  position: absolute;
+  left: 252px;
+  top: 116px;
+  overflow: visible;
+}
+.img-1 {
+  border-radius: 5px;
+  position: absolute;
+  right: 80.56%;
+  left: 4.72%;
+  width: 14.72%;
+  bottom: 57.5%;
+  top: 34.22%;
+  height: 8.28%;
+}
+.img-12 {
+  border-radius: 5px;
+  position: absolute;
+  right: 61.39%;
+  left: 23.89%;
+  width: 14.72%;
+  bottom: 57.5%;
+  top: 34.22%;
+  height: 8.28%;
+}
+.review-item2 {
+  width: 360px;
+  height: 169px;
+  position: static;
+}
+.rectangle-232 {
+  background: #ffffff;
+  width: 360px;
+  height: 169px;
+  position: absolute;
+  left: 0px;
+  top: 311px;
+}
+.group-1072 {
+  width: 325.05px;
+  height: 97px;
+  position: static;
+}
+.group-1032 {
+  width: 187.89px;
+  height: 42px;
+  position: static;
+}
+.group-1022 {
+  width: 136.74px;
+  height: 36px;
+  position: static;
+}
+.carla-septimus {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 67.26px;
+  top: 334px;
+  width: 136.74px;
+}
+._32-minutes-ago2 {
+  color: #868889;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 67.26px;
+  top: 355px;
+  width: 91.16px;
+}
+.ellipse-182 {
+  border-radius: 50%;
+  width: 39.79px;
+  height: 42px;
+  position: absolute;
+  left: 16.11px;
+  top: 331px;
+}
+.line-122 {
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 1px 0 0 0;
+  width: 324.95px;
+  height: 0px;
+  position: absolute;
+  left: 16.11px;
+  top: 389px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.group-1062 {
+  width: 324.95px;
+  height: 92px;
+  position: static;
+}
+.pengiriman-cepat-dan-banyak-voucher-yang-tersedia {
+  color: #868889;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 395px;
+  width: 324.95px;
+  height: 33px;
+}
+.rating2 {
+  width: 98.19px;
+  height: 14.55px;
+  position: absolute;
+  left: 240px;
+  top: 336px;
+  overflow: visible;
+}
+.img-13 {
+  border-radius: 5px;
+  position: absolute;
+  right: 80.56%;
+  left: 4.72%;
+  width: 14.72%;
+  bottom: 26.41%;
+  top: 65.31%;
+  height: 8.28%;
+}
+.img-14 {
+  border-radius: 5px;
+  position: absolute;
+  right: 61.39%;
+  left: 23.89%;
+  width: 14.72%;
+  bottom: 26.41%;
+  top: 65.31%;
+  height: 8.28%;
+}
+.rectangle-233 {
+  background: #ffffff;
+  width: 360px;
+  height: 169px;
+  position: absolute;
+  left: 0px;
+  top: 494px;
+}
+.group-1033 {
+  width: 170.89px;
+  height: 42px;
+  position: static;
+}
+.group-1023 {
+  width: 113.58px;
+  height: 36px;
+  position: static;
+}
+.carla-george {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 73.42px;
+  top: 517px;
+  width: 113.58px;
+}
+._32-minutes-ago3 {
+  color: #868889;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 73.42px;
+  top: 538px;
+  width: 87.04px;
+}
+.ellipse-183 {
+  border-radius: 50%;
+  width: 44.58px;
+  height: 42px;
+  position: absolute;
+  left: 16.11px;
+  top: 514px;
+}
+.line-123 {
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 1px 0 0 0;
+  width: 324.95px;
+  height: 0px;
+  position: absolute;
+  left: 16.11px;
+  top: 572px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.group-1063 {
+  width: 324.95px;
+  height: 90px;
+  position: static;
+}
+.sangat-cocok-untuk-yang-mageran-keluar-rumah {
+  color: #868889;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 578px;
+  width: 324.95px;
+  height: 33px;
+}
+.rating3 {
+  width: 92.55px;
+  height: 14.55px;
+  position: absolute;
+  left: 248px;
+  top: 521px;
+  overflow: visible;
+}
+.img-15 {
+  border-radius: 5px;
+  position: absolute;
+  right: 79.72%;
+  left: 5.56%;
+  width: 14.72%;
+  bottom: -2.34%;
+  top: 94.06%;
+  height: 8.28%;
+}
+.review-item3 {
+  width: 360px;
+  height: 128px;
+  position: static;
+}
+.rectangle-234 {
+  background: #ffffff;
+  width: 360px;
+  height: 128px;
+  position: absolute;
+  left: 0px;
+  top: 677px;
+}
+.group-1034 {
+  width: 163.89px;
+  height: 42px;
+  position: static;
+}
+.group-1024 {
+  width: 109.26px;
+  height: 36px;
+  position: static;
+}
+.maren-kenter {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  left: 70.74px;
+  top: 700px;
+  width: 109.26px;
+}
+._32-minutes-ago4 {
+  color: #868889;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 70.74px;
+  top: 721px;
+  width: 82.96px;
+}
+.ellipse-184 {
+  border-radius: 50%;
+  width: 42.49px;
+  height: 42px;
+  position: absolute;
+  left: 16.11px;
+  top: 697px;
+}
+.line-124 {
+  border-style: solid;
+  border-color: #ebebeb;
+  border-width: 1px 0 0 0;
+  width: 324.95px;
+  height: 0px;
+  position: absolute;
+  left: 16.11px;
+  top: 755px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.sayur-datang-segar-dan-fresh {
+  color: #868889;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 761px;
+  width: 324.95px;
+  height: 33px;
+}
+.rating4 {
+  width: 90.14px;
+  height: 14.55px;
+  position: absolute;
+  left: 248px;
+  top: 704px;
+  overflow: visible;
+}

@@ -1,0 +1,851 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.voucher-tersedia,
+.voucher-tersedia * {
+  box-sizing: border-box;
+}
+.voucher-tersedia {
+  background: #ffffff;
+  width: 360px;
+  height: 641px;
+  position: relative;
+  overflow: hidden;
+}
+.voucher-tersedia2 {
+  background: #ffffff;
+  width: 360px;
+  height: 1320px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: hidden;
+}
+.group-37016 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 89.7%;
+  top: 0%;
+  height: 10.3%;
+  overflow: visible;
+}
+.group-401 {
+  width: 328px;
+  height: 40px;
+  position: static;
+}
+.search-elipse {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 4.44%;
+  left: 4.44%;
+  width: 91.11%;
+  bottom: 90.91%;
+  top: 6.06%;
+  height: 3.03%;
+  overflow: visible;
+}
+.cari-sayur-bumbu-dapur-lauk-pauk {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: var(--field-f-1-12-font-family, "OpenSans-Regular", sans-serif);
+  font-size: var(--field-f-1-12-font-size, 12px);
+  line-height: var(--field-f-1-12-line-height, 16px);
+  font-weight: var(--field-f-1-12-font-weight, 400);
+  position: absolute;
+  right: 43.89%;
+  left: 8.89%;
+  width: 47.22%;
+  bottom: 91.82%;
+  top: 6.97%;
+  height: 1.21%;
+}
+.voucher-tersedia3 {
+  color: var(--black-80, #404040);
+  text-align: left;
+  font-family: "AvenirNext-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 51.39%;
+  left: 17.78%;
+  width: 30.83%;
+  bottom: 95.3%;
+  top: 3.26%;
+  height: 1.44%;
+}
+.android-ui-status-bar-light {
+  width: 360px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.android-ui-status-bar-dark {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.background {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+._11-11 {
+  color: rgba(0, 0, 0, 0.54);
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8px;
+  top: calc(50% - 8px);
+  width: 37px;
+}
+.icons-device-network-wifi {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 86px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-device-signal-cellular-4-bar {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 66px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-device-battery-full {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 46px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-navigation-close {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 16px;
+  top: 40px;
+  overflow: visible;
+}
+.group-4937 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-566 {
+  border-radius: 0px;
+  width: 328px;
+  height: 130px;
+  position: absolute;
+  left: 16px;
+  top: 298px;
+  overflow: visible;
+}
+.gift-4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 304px;
+  top: 310px;
+  overflow: hidden;
+}
+.group-4935 {
+  width: 58px;
+  height: 22px;
+  position: static;
+}
+.rectangle2 {
+  border-radius: 0px;
+  opacity: 0.20000000298023224;
+  width: 58px;
+  height: 22px;
+  position: absolute;
+  left: 81px;
+  bottom: 986px;
+  overflow: visible;
+}
+.jarak-lokas {
+  color: var(--red-90-primary-dark, #ee4746);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 76.67%;
+  left: 10.56%;
+  width: 12.78%;
+  bottom: 74.92%;
+  top: 23.86%;
+  height: 1.21%;
+}
+._10-ribu-diskon-potongan-10-ribu-untuk-semua-transaksi {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8.89%;
+  left: 8.89%;
+  width: 82.22%;
+  bottom: 71.06%;
+  top: 26.06%;
+  height: 2.88%;
+}
+.berlaku-hingga-08-april-2020 {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: "AvenirNext-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 46.67%;
+  left: 8.89%;
+  width: 44.44%;
+  bottom: 68.86%;
+  top: 29.92%;
+  height: 1.21%;
+}
+.group-4878 {
+  width: 61px;
+  height: 26px;
+  position: static;
+}
+.rectangle-4 {
+  border-radius: 0px;
+  width: 81px;
+  height: 76px;
+  position: absolute;
+  left: 247px;
+  top: 365px;
+  overflow: visible;
+}
+.pakai {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  position: absolute;
+  left: 265px;
+  top: 389px;
+}
+.group-4939 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5662 {
+  border-radius: 0px;
+  width: 328px;
+  height: 130px;
+  position: absolute;
+  left: 16px;
+  top: 444px;
+  overflow: visible;
+}
+.rectangle3 {
+  border-radius: 0px;
+  opacity: 0.20000000298023224;
+  width: 58px;
+  height: 22px;
+  position: absolute;
+  left: 32px;
+  bottom: 840px;
+  overflow: visible;
+}
+.jarak-lokas2 {
+  color: var(--red-90-primary-dark, #ee4746);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 76.67%;
+  left: 10.56%;
+  width: 12.78%;
+  bottom: 63.86%;
+  top: 34.92%;
+  height: 1.21%;
+}
+._10-ribu-diskon-potongan-10-ribu-untuk-semua-transaksi2 {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8.89%;
+  left: 8.89%;
+  width: 82.22%;
+  bottom: 60%;
+  top: 37.12%;
+  height: 2.88%;
+}
+.berlaku-hingga-08-april-20202 {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: "AvenirNext-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 46.67%;
+  left: 8.89%;
+  width: 44.44%;
+  bottom: 57.8%;
+  top: 40.98%;
+  height: 1.21%;
+}
+.rectangle-42 {
+  border-radius: 0px;
+  width: 81px;
+  height: 76px;
+  position: absolute;
+  left: 247px;
+  top: 515px;
+  overflow: visible;
+}
+.pakai2 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  position: absolute;
+  left: 269px;
+  top: 542px;
+}
+.group-4940 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5663 {
+  border-radius: 0px;
+  width: 328px;
+  height: 130px;
+  position: absolute;
+  left: 16px;
+  top: 590px;
+  overflow: visible;
+}
+.rectangle4 {
+  border-radius: 0px;
+  opacity: 0.20000000298023224;
+  width: 58px;
+  height: 22px;
+  position: absolute;
+  left: 32px;
+  bottom: 694px;
+  overflow: visible;
+}
+.jarak-lokas3 {
+  color: var(--red-90-primary-dark, #ee4746);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 76.67%;
+  left: 10.56%;
+  width: 12.78%;
+  bottom: 52.8%;
+  top: 45.98%;
+  height: 1.21%;
+}
+._10-ribu-diskon-potongan-10-ribu-untuk-semua-transaksi3 {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8.89%;
+  left: 8.89%;
+  width: 82.22%;
+  bottom: 48.94%;
+  top: 48.18%;
+  height: 2.88%;
+}
+.berlaku-hingga-08-april-20203 {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: "AvenirNext-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 46.67%;
+  left: 8.89%;
+  width: 44.44%;
+  bottom: 46.74%;
+  top: 52.05%;
+  height: 1.21%;
+}
+.rectangle-43 {
+  border-radius: 0px;
+  width: 61px;
+  height: 76px;
+  position: absolute;
+  left: 267px;
+  top: 682px;
+  overflow: visible;
+}
+.pakai3 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  position: absolute;
+  left: 282px;
+  top: 688px;
+}
+.group-4941 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5664 {
+  border-radius: 0px;
+  width: 328px;
+  height: 130px;
+  position: absolute;
+  left: 16px;
+  top: 736px;
+  overflow: visible;
+}
+.rectangle5 {
+  border-radius: 0px;
+  opacity: 0.20000000298023224;
+  width: 58px;
+  height: 22px;
+  position: absolute;
+  left: 32px;
+  bottom: 548px;
+  overflow: visible;
+}
+.jarak-lokas4 {
+  color: var(--red-90-primary-dark, #ee4746);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 76.67%;
+  left: 10.56%;
+  width: 12.78%;
+  bottom: 41.74%;
+  top: 57.05%;
+  height: 1.21%;
+}
+._10-ribu-diskon-potongan-10-ribu-untuk-semua-transaksi4 {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8.89%;
+  left: 8.89%;
+  width: 82.22%;
+  bottom: 37.88%;
+  top: 59.24%;
+  height: 2.88%;
+}
+.berlaku-hingga-08-april-20204 {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: "AvenirNext-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 46.67%;
+  left: 8.89%;
+  width: 44.44%;
+  bottom: 35.68%;
+  top: 63.11%;
+  height: 1.21%;
+}
+.rectangle-44 {
+  border-radius: 0px;
+  width: 61px;
+  height: 7px;
+  position: absolute;
+  left: 267px;
+  top: 828px;
+  overflow: visible;
+}
+.pakai4 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  position: absolute;
+  left: 282px;
+  top: 834px;
+}
+.group-4942 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5665 {
+  border-radius: 0px;
+  width: 328px;
+  height: 130px;
+  position: absolute;
+  left: 16px;
+  top: 882px;
+  overflow: visible;
+}
+.rectangle6 {
+  border-radius: 0px;
+  opacity: 0.20000000298023224;
+  width: 58px;
+  height: 22px;
+  position: absolute;
+  left: 32px;
+  bottom: 402px;
+  overflow: visible;
+}
+.jarak-lokas5 {
+  color: var(--red-90-primary-dark, #ee4746);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 76.67%;
+  left: 10.56%;
+  width: 12.78%;
+  bottom: 30.68%;
+  top: 68.11%;
+  height: 1.21%;
+}
+._10-ribu-diskon-potongan-10-ribu-untuk-semua-transaksi5 {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8.89%;
+  left: 8.89%;
+  width: 82.22%;
+  bottom: 26.82%;
+  top: 70.3%;
+  height: 2.88%;
+}
+.berlaku-hingga-08-april-20205 {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: "AvenirNext-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 46.67%;
+  left: 8.89%;
+  width: 44.44%;
+  bottom: 24.62%;
+  top: 74.17%;
+  height: 1.21%;
+}
+.rectangle-45 {
+  border-radius: 0px;
+  width: 61px;
+  height: 26px;
+  position: absolute;
+  left: 267px;
+  top: 974px;
+  overflow: visible;
+}
+.pakai5 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  position: absolute;
+  left: 282px;
+  top: 980px;
+}
+.group-4943 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5666 {
+  border-radius: 0px;
+  width: 328px;
+  height: 130px;
+  position: absolute;
+  left: 16px;
+  top: 1028px;
+  overflow: visible;
+}
+.rectangle7 {
+  border-radius: 0px;
+  opacity: 0.20000000298023224;
+  width: 58px;
+  height: 22px;
+  position: absolute;
+  left: 32px;
+  bottom: 256px;
+  overflow: visible;
+}
+.jarak-lokas6 {
+  color: var(--red-90-primary-dark, #ee4746);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 76.67%;
+  left: 10.56%;
+  width: 12.78%;
+  bottom: 19.62%;
+  top: 79.17%;
+  height: 1.21%;
+}
+._10-ribu-diskon-potongan-10-ribu-untuk-semua-transaksi6 {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8.89%;
+  left: 8.89%;
+  width: 82.22%;
+  bottom: 15.76%;
+  top: 81.36%;
+  height: 2.88%;
+}
+.berlaku-hingga-08-april-20206 {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: "AvenirNext-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 46.67%;
+  left: 8.89%;
+  width: 44.44%;
+  bottom: 13.56%;
+  top: 85.23%;
+  height: 1.21%;
+}
+.rectangle-46 {
+  border-radius: 0px;
+  width: 61px;
+  height: 26px;
+  position: absolute;
+  left: 267px;
+  top: 1120px;
+  overflow: visible;
+}
+.pakai6 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  position: absolute;
+  left: 282px;
+  top: 1126px;
+}
+.group-4944 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5667 {
+  border-radius: 0px;
+  width: 328px;
+  height: 130px;
+  position: absolute;
+  left: 16px;
+  top: 1174px;
+  overflow: visible;
+}
+.rectangle8 {
+  border-radius: 0px;
+  opacity: 0.20000000298023224;
+  width: 58px;
+  height: 22px;
+  position: absolute;
+  left: 32px;
+  bottom: 110px;
+  overflow: visible;
+}
+.jarak-lokas7 {
+  color: var(--red-90-primary-dark, #ee4746);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 76.67%;
+  left: 10.56%;
+  width: 12.78%;
+  bottom: 8.56%;
+  top: 90.23%;
+  height: 1.21%;
+}
+._10-ribu-diskon-potongan-10-ribu-untuk-semua-transaksi7 {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8.89%;
+  left: 8.89%;
+  width: 82.22%;
+  bottom: 4.7%;
+  top: 92.42%;
+  height: 2.88%;
+}
+.berlaku-hingga-08-april-20207 {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: "AvenirNext-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 46.67%;
+  left: 8.89%;
+  width: 44.44%;
+  bottom: 2.5%;
+  top: 96.29%;
+  height: 1.21%;
+}
+.rectangle-47 {
+  border-radius: 0px;
+  width: 61px;
+  height: 26px;
+  position: absolute;
+  left: 267px;
+  top: 1266px;
+  overflow: visible;
+}
+.pakai7 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  position: absolute;
+  left: 282px;
+  top: 1272px;
+}
+.group-4938 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5668 {
+  border-radius: 0px;
+  width: 328px;
+  height: 130px;
+  position: absolute;
+  left: 16px;
+  top: 152px;
+  overflow: visible;
+}
+.rectangle9 {
+  border-radius: 0px;
+  opacity: 0.20000000298023224;
+  width: 58px;
+  height: 22px;
+  position: absolute;
+  left: 32px;
+  bottom: 1132px;
+  overflow: visible;
+}
+.jarak-lokas8 {
+  color: var(--red-90-primary-dark, #ee4746);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 76.67%;
+  left: 10.56%;
+  width: 12.78%;
+  bottom: 85.98%;
+  top: 12.8%;
+  height: 1.21%;
+}
+._10-ribu-diskon-potongan-10-ribu-untuk-semua-transaksi8 {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8.89%;
+  left: 8.89%;
+  width: 82.22%;
+  bottom: 82.12%;
+  top: 15%;
+  height: 2.88%;
+}
+.berlaku-hingga-08-april-20208 {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: "AvenirNext-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 46.67%;
+  left: 8.89%;
+  width: 44.44%;
+  bottom: 79.92%;
+  top: 18.86%;
+  height: 1.21%;
+}
+.rectangle-48 {
+  border-radius: 0px;
+  width: 81px;
+  height: 76px;
+  position: absolute;
+  left: 247px;
+  top: 225px;
+  overflow: visible;
+}
+.pakai8 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  position: absolute;
+  left: 265px;
+  top: 250px;
+}

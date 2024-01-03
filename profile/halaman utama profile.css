@@ -1,0 +1,555 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.profile-360-x-640,
+.profile-360-x-640 * {
+  box-sizing: border-box;
+}
+.profile-360-x-640 {
+  background: #fbfdff;
+  width: 360px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.card {
+  background: #ffffff;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 89.38%;
+  top: 0%;
+  height: 10.62%;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.app-bar-black {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-6 {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 96.25%;
+  top: 0%;
+  height: 3.75%;
+}
+._5-37 {
+  color: #878b8d;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 0.97%;
+  left: 88.89%;
+  width: 10.14%;
+  bottom: 96.88%;
+  top: 0.94%;
+  height: 2.19%;
+}
+.shape {
+  width: 18.45px;
+  height: 14px;
+  position: absolute;
+  left: 222.03px;
+  top: 5px;
+  overflow: visible;
+}
+.ic-battery-charging-full-black-24-px {
+  width: 22.57px;
+  height: 17.44px;
+  position: absolute;
+  right: 9.98%;
+  left: 83.75%;
+  width: 6.27%;
+  bottom: 96.81%;
+  top: 0.47%;
+  height: 2.73%;
+  overflow: visible;
+}
+.ic-signal-wifi-off-black-24-px {
+  opacity: 0.5;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 16.39%;
+  left: 78.61%;
+  width: 5%;
+  bottom: 96.72%;
+  top: 0.47%;
+  height: 2.81%;
+  overflow: visible;
+}
+.rectangle {
+  background: #14181b;
+  position: absolute;
+  right: 25.69%;
+  left: 73.89%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-copy {
+  background: #14181b;
+  position: absolute;
+  right: 24.31%;
+  left: 75.28%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-copy-2 {
+  background: #14181b;
+  position: absolute;
+  right: 23.33%;
+  left: 76.25%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-2 {
+  background: #14181b;
+  position: absolute;
+  right: 23.89%;
+  left: 74.86%;
+  width: 1.25%;
+  bottom: 98.59%;
+  top: 1.17%;
+  height: 0.23%;
+}
+.rectangle-2-copy {
+  background: #14181b;
+  position: absolute;
+  right: 25%;
+  left: 73.89%;
+  width: 1.11%;
+  bottom: 97.42%;
+  top: 2.34%;
+  height: 0.23%;
+}
+.rectangle-2-copy-3 {
+  background: #14181b;
+  position: absolute;
+  right: 22.5%;
+  left: 76.25%;
+  width: 1.25%;
+  bottom: 97.42%;
+  top: 2.34%;
+  height: 0.23%;
+}
+.rectangle-2-copy-5 {
+  background: #14181b;
+  position: absolute;
+  right: 22.5%;
+  left: 76.25%;
+  width: 1.25%;
+  bottom: 98.59%;
+  top: 1.17%;
+  height: 0.23%;
+}
+.rectangle-2-copy-4 {
+  background: #14181b;
+  position: absolute;
+  right: 22.78%;
+  left: 76.25%;
+  width: 0.97%;
+  bottom: 98.05%;
+  top: 1.72%;
+  height: 0.23%;
+}
+.path-5 {
+  height: auto;
+  position: absolute;
+  right: 27.85%;
+  left: 70.58%;
+  width: 1.56%;
+  bottom: 97.03%;
+  top: 0.79%;
+  height: 2.18%;
+  overflow: visible;
+}
+.path-4 {
+  height: auto;
+  position: absolute;
+  right: 29.4%;
+  left: 68.2%;
+  width: 2.41%;
+  bottom: 97.03%;
+  top: 1.68%;
+  height: 1.29%;
+  overflow: visible;
+}
+.pencarian-produk-terpopuler {
+  color: #14181b;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  right: 84.72%;
+  left: 4.17%;
+  width: 11.11%;
+  bottom: 91.41%;
+  top: 5.94%;
+  height: 2.66%;
+}
+.rectangle2 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 581px;
+}
+.rectangle3 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 639px;
+}
+.user {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -234px;
+  top: 233px;
+  overflow: hidden;
+}
+.ic-user {
+  height: auto;
+  position: absolute;
+  right: 20%;
+  left: 16%;
+  width: 64%;
+  bottom: 16%;
+  top: 4%;
+  height: 80%;
+  overflow: visible;
+}
+.group-207 {
+  position: absolute;
+  inset: 0;
+}
+.card2 {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 70.94%;
+  top: 10.78%;
+  height: 18.28%;
+  overflow: visible;
+}
+.pasar-gunungpati {
+  color: #14181b;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  right: 13.5%;
+  left: 38.72%;
+  width: 47.78%;
+  bottom: 80.55%;
+  top: 16.32%;
+  height: 3.12%;
+}
+.kamu-belanja-di {
+  color: #4e5356;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  position: absolute;
+  right: 23.78%;
+  left: 38.72%;
+  width: 37.5%;
+  bottom: 77.29%;
+  top: 20.68%;
+  height: 2.03%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-205 {
+  width: 68.38px;
+  height: 68.38px;
+  position: absolute;
+  left: 50px;
+  top: 91px;
+  overflow: visible;
+}
+.frame-37000 {
+  width: 325px;
+  height: 56px;
+  position: absolute;
+  left: 18px;
+  top: 570px;
+}
+.rectangle-1 {
+  background: #ffffff;
+  border-radius: 25px;
+  width: 325px;
+  height: 56px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px -1px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.frame-370002 {
+  display: flex;
+  flex-direction: row;
+  gap: 59px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 36px;
+  top: 18px;
+}
+.union {
+  flex-shrink: 0;
+  width: 18px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.group {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.group2 {
+  flex-shrink: 0;
+  width: 19.44px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.group3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.body {
+  position: absolute;
+  inset: 0;
+}
+.my-address {
+  width: 278px;
+  height: 20px;
+  position: static;
+}
+.alamatku {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 72px;
+  top: 234px;
+  width: 85px;
+}
+.group4 {
+  width: 8.53px;
+  height: 18px;
+  position: absolute;
+  left: 311.47px;
+  top: 252px;
+  transform: translate(0px, -18px);
+  overflow: visible;
+}
+.group-203 {
+  width: 19.99px;
+  height: 20px;
+  position: absolute;
+  left: 42px;
+  top: 233px;
+  overflow: visible;
+}
+.credit-cards {
+  width: 278px;
+  height: 20px;
+  position: static;
+}
+.voucherku {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 72px;
+  top: 280px;
+  width: 77px;
+}
+.group10 {
+  width: 8.53px;
+  height: 18px;
+  position: absolute;
+  left: 311.47px;
+  top: 298px;
+  transform: translate(0px, -18px);
+  overflow: visible;
+}
+.group-130 {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 42px;
+  top: 279px;
+  overflow: visible;
+}
+.transaction {
+  width: 279px;
+  height: 22px;
+  position: static;
+}
+.pusat-bantuan {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 72px;
+  top: 327px;
+  width: 105px;
+}
+.group22 {
+  width: 8.53px;
+  height: 18px;
+  position: absolute;
+  left: 311.47px;
+  top: 345px;
+  transform: translate(0px, -18px);
+  overflow: visible;
+}
+.group-204 {
+  width: 23px;
+  height: 22px;
+  position: absolute;
+  right: 82.22%;
+  left: 11.39%;
+  width: 6.39%;
+  bottom: 45.78%;
+  top: 50.78%;
+  height: 3.44%;
+  overflow: visible;
+}
+.notification {
+  width: 278px;
+  height: 23px;
+  position: static;
+}
+.notifications {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 72px;
+  top: 376px;
+  width: 85px;
+}
+.group24 {
+  width: 8.53px;
+  height: 18px;
+  position: absolute;
+  left: 311.47px;
+  top: 394.5px;
+  transform: translate(0px, -18px);
+  overflow: visible;
+}
+.group-2052 {
+  width: 22.22px;
+  height: 23px;
+  position: absolute;
+  left: 42px;
+  top: 374px;
+  overflow: visible;
+}
+.signout {
+  width: 91.19px;
+  height: 20.09px;
+  position: static;
+}
+.sign-out {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 77.69px;
+  top: 461.54px;
+  width: 54.5px;
+}
+.group-206 {
+  width: 22.01px;
+  height: 20.09px;
+  position: absolute;
+  right: 82.5%;
+  left: 11.39%;
+  width: 6.11%;
+  bottom: 24.99%;
+  top: 71.88%;
+  height: 3.14%;
+  overflow: visible;
+}
+.group-37036 {
+  position: absolute;
+  inset: 0;
+}
+.beri-penilaian {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  left: 72px;
+  top: 421px;
+  width: 95px;
+}
+.group29 {
+  width: 8.53px;
+  height: 18px;
+  position: absolute;
+  left: 311.47px;
+  top: 439.5px;
+  transform: translate(0px, -18px);
+  overflow: visible;
+}
+.vector30 {
+  height: auto;
+  position: absolute;
+  right: 81.94%;
+  left: 11.11%;
+  width: 6.94%;
+  bottom: 31.41%;
+  top: 65%;
+  height: 3.59%;
+  overflow: visible;
+}

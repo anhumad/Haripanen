@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  .detail-produk,
+  .detail-produk * {
+    box-sizing: border-box;
+  }
+  .detail-produk {
+    background: #ffffff;
+    width: 360px;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+  }
+  .img-1 {
+    border-radius: 5px;
+    position: absolute;
+    right: -10%;
+    left: -1.94%;
+    width: 111.94%;
+    bottom: 61.41%;
+    top: -3.44%;
+    height: 42.03%;
+  }
+  .base-appbar-rectangle {
+    width: 400px; 
+    height: 100px;
+    position: relative;
+    top: 0;
+    overflow: visible;
+  
+  }
+  
+  .detail-produk2 {
+    color: #262626;
+    text-align: left;
+    font-family: "Poppins-bold", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    right: 46.67%;
+    left: 19.10%;
+    width: 25.56%;
+    bottom: 90%;
+    top: 7.72%;
+    height: 3.28%;
+  }
+  .android-ui-status-bar-light {
+    width: 360px;
+    height: 24px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .android-ui-status-bar-dark {
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+  }
+  .background {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+  }
+  ._11-11 {
+    color: rgba(0, 0, 0, 0.54);
+    text-align: right;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    right: 8px;
+    top: calc(50% - 8px);
+    width: 37px;
+  }
+  .icons-device-network-wifi {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 86px;
+    top: calc(50% - 9px);
+    overflow: visible;
+  }
+  .icons-device-signal-cellular-4-bar {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 66px;
+    top: calc(50% - 9px);
+    overflow: visible;
+  }
+  .icons-device-battery-full {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 46px;
+    top: calc(50% - 9px);
+    overflow: visible;
+  }
+  .sayur-bayam {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    right: 40.83%;
+    left: 4.44%;
+    width: 54.72%;
+    bottom: 56.72%;
+    top: 40%;
+    height: 3.28%;
+  }
+  .sayur-bayam2 {
+    color: var(--black-1, #424643);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    position: absolute;
+    right: 40.83%;
+    left: 4.44%;
+    width: 54.72%;
+    bottom: 56.72%;
+    top: 70%;
+    height: 3.28%;
+  }
+  .group-4872 {
+    position: absolute;
+    inset: 0;
+  }
+  .rp-5-000-250-gram {
+    color: #42b549;
+    text-align: left;
+    position: absolute;
+    right: 4.44%;
+    left: 66.94%;
+    width: 28.61%;
+    bottom: 57.19%;
+    top: 40%;
+    height: 2.81%;
+  }
+  .rp-5-000-250-gram-span {
+    color: #42b549;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .rp-5-000-250-gram-span2 {
+    color: #42b549;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .rectangle-559 {
+    background: var(--black-5, #e8e8e8);
+    border-radius: 5px;
+    width: 328px;
+    height: 1px;
+    position: absolute;
+    left: 16px;
+    top: 325px;
+  }
+  .rectangle-560 {
+    background: var(--black-5, #e8e8e8);
+    border-radius: 5px;
+    width: 328px;
+    height: 1px;
+    position: absolute;
+    left: 16px;
+    top: 437px;
+  }
+  ._6 {
+    color: #14181b;
+    text-align: left;
+    font-family: "Lato-ExtraBold", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    justify-content: center;
+    position: relative;
+    right: 15.61%;
+    left: 49.55%;
+    width: 1.33%;
+    bottom: 42.54%;
+    top: 58.96%;
+    height: 1.5%;
+  }
+  .group-15 {
+    width: 19.16px;
+    height: 19.16px;
+    position: absolute;
+    right: 7.22%;
+    left: 54.72%;
+    width: 5.32%;
+    bottom: 71.38%;
+    top: 75.62%;
+    height: 2.99%;
+    overflow: visible;
+  }
+  .group-14 {
+    width: 19.16px;
+    height: 19.16px;
+    position: absolute;
+    right: 19.96%;
+    left: 41.72%;
+    width: 5.32%;
+    bottom: 71.38%;
+    top: 75.62%;
+    height: 2.99%;
+    overflow: visible;
+  }
+  .buy-products-related {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "AvenirNext-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    right: 80.28%;
+    left: 4.44%;
+    width: 15.28%;
+    top: calc(50% - -12px);
+  }
+  .buy-products-related2 {
+    color: var(--black-2, #52575c);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    right: 4.44%;
+    left: 4.44%;
+    width: 91.11%;
+    top: calc(50% - -37px);
+    height: 94px;
+  }
+  .ratings-reviews {
+    width: 185px;
+    height: 18px;
+    position: absolute;
+    left: 16px;
+    top: 291px;
+  }
+  ._4-5 {
+    color: #000000;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    right: 89.73%;
+    left: 0%;
+    width: 10.27%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+  }
+  ._89-reviews {
+    color: #868889;
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    right: -1.62%;
+    left: 60%;
+    width: 41.62%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+  }
+  .group-101 {
+    height: auto;
+    position: absolute;
+    right: 41.62%;
+    left: 11.35%;
+    width: 47.03%;
+    bottom: 19.17%;
+    top: 0%;
+    height: 80.83%;
+    overflow: visible;
+  }
+  .primary-button {
+    width: 380px;
+    height: 60px;
+    position: absolute;
+    left: -10px;
+    top: 517px;
+  }
+  .rectangle2 {
+    border-radius: 0px;
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+  }
+  .title {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    right: 37.63%;
+    left: 17.63%;
+    width: 24.74%;
+    bottom: 31.67%;
+    top: 30%;
+    height: 38.33%;
+  }
+  .rectangle-4-10 {
+    box-sizing: border-box;
+  }
+  .rectangle-4-10 {
+    border-radius: 0px;
+    width: 332px;
+    height: 62px;
+    position: relative;
+    overflow: visible;
+    top: 65%;
+    left: 5%;
+  }
+  .bawa-ke-keranjang {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    position: relative;
+    top: 57%;
+    left: 12%;
+  }
+  .bawa-ke-keranjang1 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    position: relative;
+    top: 57%;
+    left: 12%;
+  }
+  .bawa-ke-keranjang3 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    position: relative;
+    top: 52%;
+    left: 80%;
+  }
+  .np-bag-943848-000000-1 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+    top: 52%;
+    left: 81%;
+  }

@@ -1,0 +1,914 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.bantuan-360-x-640,
+.bantuan-360-x-640 * {
+  box-sizing: border-box;
+}
+.bantuan-360-x-640 {
+  background: #fbfdff;
+  width: 360px;
+  height: 640px;
+  position: relative;
+  overflow-y: auto;
+}
+.card {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 80.78%;
+  top: 0%;
+  height: 19.22%;
+  overflow: visible;
+}
+.app-bar-black {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-6 {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 96.25%;
+  top: 0%;
+  height: 3.75%;
+}
+._5-37 {
+  color: #878b8d;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 0.97%;
+  left: 88.89%;
+  width: 10.14%;
+  bottom: 96.88%;
+  top: 0.94%;
+  height: 2.19%;
+}
+.shape {
+  width: 18.45px;
+  height: 14px;
+  position: absolute;
+  left: 222.03px;
+  top: 5px;
+  overflow: visible;
+}
+.ic-battery-charging-full-black-24-px {
+  width: 22.57px;
+  height: 17.44px;
+  position: absolute;
+  right: 9.98%;
+  left: 83.75%;
+  width: 6.27%;
+  bottom: 96.81%;
+  top: 0.47%;
+  height: 2.73%;
+  overflow: visible;
+}
+.ic-signal-wifi-off-black-24-px {
+  opacity: 0.5;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 16.39%;
+  left: 78.61%;
+  width: 5%;
+  bottom: 96.72%;
+  top: 0.47%;
+  height: 2.81%;
+  overflow: visible;
+}
+.rectangle {
+  background: #14181b;
+  position: absolute;
+  right: 25.69%;
+  left: 73.89%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-copy {
+  background: #14181b;
+  position: absolute;
+  right: 24.31%;
+  left: 75.28%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-copy-2 {
+  background: #14181b;
+  position: absolute;
+  right: 23.33%;
+  left: 76.25%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-2 {
+  background: #14181b;
+  position: absolute;
+  right: 23.89%;
+  left: 74.86%;
+  width: 1.25%;
+  bottom: 98.59%;
+  top: 1.17%;
+  height: 0.23%;
+}
+.rectangle-2-copy {
+  background: #14181b;
+  position: absolute;
+  right: 25%;
+  left: 73.89%;
+  width: 1.11%;
+  bottom: 97.42%;
+  top: 2.34%;
+  height: 0.23%;
+}
+.rectangle-2-copy-3 {
+  background: #14181b;
+  position: absolute;
+  right: 22.5%;
+  left: 76.25%;
+  width: 1.25%;
+  bottom: 97.42%;
+  top: 2.34%;
+  height: 0.23%;
+}
+.rectangle-2-copy-5 {
+  background: #14181b;
+  position: absolute;
+  right: 22.5%;
+  left: 76.25%;
+  width: 1.25%;
+  bottom: 98.59%;
+  top: 1.17%;
+  height: 0.23%;
+}
+.rectangle-2-copy-4 {
+  background: #14181b;
+  position: absolute;
+  right: 22.78%;
+  left: 76.25%;
+  width: 0.97%;
+  bottom: 98.05%;
+  top: 1.72%;
+  height: 0.23%;
+}
+.path-5 {
+  height: auto;
+  position: absolute;
+  right: 27.85%;
+  left: 70.58%;
+  width: 1.56%;
+  bottom: 97.03%;
+  top: 0.79%;
+  height: 2.18%;
+  overflow: visible;
+}
+.path-4 {
+  height: auto;
+  position: absolute;
+  right: 29.4%;
+  left: 68.2%;
+  width: 2.41%;
+  bottom: 97.03%;
+  top: 1.68%;
+  height: 1.29%;
+  overflow: visible;
+}
+.card2 {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 75.78%;
+  top: 11.56%;
+  height: 12.66%;
+  overflow: visible;
+}
+.pasar-gunungpati {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  opacity: 0.800000011920929;
+  position: absolute;
+  right: 26.39%;
+  left: 26.39%;
+  width: 47.22%;
+  bottom: 83.75%;
+  top: 13.91%;
+  height: 2.34%;
+}
+.pasar-gunungpati2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  right: 8.06%;
+  left: 8.06%;
+  width: 83.89%;
+  bottom: 78.59%;
+  top: 17.97%;
+  height: 3.44%;
+}
+.group {
+  position: absolute;
+  inset: 0;
+}
+.pencarian-produk-terpopuler {
+  color: #14181b;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  right: 54.44%;
+  left: 15%;
+  width: 30.56%;
+  bottom: 91.41%;
+  top: 5.94%;
+  height: 2.66%;
+}
+.ic-chev-left {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 15px;
+  top: 34px;
+  overflow: hidden;
+}
+.budicon-chevron-left {
+  height: auto;
+  position: absolute;
+  right: 39.98%;
+  left: 20%;
+  width: 40.02%;
+  bottom: 8%;
+  top: 15.98%;
+  height: 76.02%;
+  overflow: visible;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+.card3 {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 47.34%;
+  top: 31.87%;
+  height: 20.78%;
+  overflow: visible;
+}
+.buah-buahan {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 63.89%;
+  left: 3.89%;
+  width: 32.22%;
+  bottom: 56.88%;
+  top: 40.78%;
+  height: 2.34%;
+}
+.rectangle2 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 291px;
+}
+.buah-buahan2 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 17.22%;
+  left: 3.89%;
+  width: 78.89%;
+  bottom: 49.69%;
+  top: 47.97%;
+  height: 2.34%;
+}
+.rectangle3 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 245px;
+}
+.pasar-gunungpati3 {
+  color: #14181b;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 71.11%;
+  left: 3.89%;
+  width: 25%;
+  bottom: 64.06%;
+  top: 33.59%;
+  height: 2.34%;
+}
+.card4 {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: -5.78%;
+  top: 55%;
+  height: 50.78%;
+  overflow: visible;
+}
+.buah-buahan3 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 22.78%;
+  left: 3.89%;
+  width: 73.33%;
+  bottom: 30.16%;
+  top: 63.91%;
+  height: 5.94%;
+}
+.rectangle4 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 462px;
+}
+.buah-buahan4 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 13.61%;
+  left: 3.89%;
+  width: 82.5%;
+  bottom: 22.97%;
+  top: 74.69%;
+  height: 2.34%;
+}
+.rectangle5 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 508px;
+}
+.buah-buahan5 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 21.39%;
+  left: 3.89%;
+  width: 74.72%;
+  bottom: 15.16%;
+  top: 81.88%;
+  height: 2.97%;
+}
+.rectangle6 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 558px;
+}
+.buah-buahan6 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 16.39%;
+  left: 3.89%;
+  width: 79.72%;
+  bottom: 7.34%;
+  top: 89.69%;
+  height: 2.97%;
+}
+.rectangle7 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 608px;
+}
+.buah-buahan7 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 13.33%;
+  left: 3.89%;
+  width: 82.78%;
+  bottom: -3.44%;
+  top: 97.5%;
+  height: 5.94%;
+}
+.rectangle8 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 393px;
+}
+.pasar-gunungpati4 {
+  color: #14181b;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 74.44%;
+  left: 3.89%;
+  width: 21.67%;
+  bottom: 40.94%;
+  top: 56.72%;
+  height: 2.34%;
+}
+.card5 {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: -126.41%;
+  top: 154.06%;
+  height: 72.34%;
+  overflow: visible;
+}
+.card6 {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: -140%;
+  top: 228.75%;
+  height: 11.25%;
+  overflow: visible;
+}
+.rectangle9 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 1096px;
+}
+.rectangle10 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 1142px;
+}
+.rectangle11 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 1211px;
+}
+.rectangle12 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 1261px;
+}
+.rectangle13 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 1330px;
+}
+.rectangle14 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 1399px;
+}
+.rectangle15 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 1027px;
+}
+.buah-buahan8 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 24.72%;
+  left: 3.89%;
+  width: 71.39%;
+  bottom: -68.91%;
+  top: 162.97%;
+  height: 5.94%;
+}
+.buah-buahan9 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 11.94%;
+  left: 3.89%;
+  width: 84.17%;
+  bottom: -76.09%;
+  top: 173.75%;
+  height: 2.34%;
+}
+.buah-buahan10 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 19.72%;
+  left: 3.89%;
+  width: 76.39%;
+  bottom: -86.88%;
+  top: 180.94%;
+  height: 5.94%;
+}
+.buah-buahan11 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 12.22%;
+  left: 3.89%;
+  width: 83.89%;
+  bottom: -94.69%;
+  top: 191.72%;
+  height: 2.97%;
+}
+.buah-buahan12 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 26.67%;
+  left: 3.89%;
+  width: 69.44%;
+  bottom: -105.47%;
+  top: 199.53%;
+  height: 5.94%;
+}
+.buah-buahan13 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 20%;
+  left: 3.89%;
+  width: 76.11%;
+  bottom: -116.25%;
+  top: 210.31%;
+  height: 5.94%;
+}
+.buah-buahan14 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 21.94%;
+  left: 3.89%;
+  width: 74.17%;
+  bottom: -124.06%;
+  top: 221.09%;
+  height: 2.97%;
+}
+.pasar-gunungpati5 {
+  color: #14181b;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 80.56%;
+  left: 3.89%;
+  width: 15.56%;
+  bottom: -58.13%;
+  top: 155.78%;
+  height: 2.34%;
+}
+.card7 {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: -51.72%;
+  top: 108.12%;
+  height: 43.59%;
+  overflow: visible;
+}
+.buah-buahan15 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 53.06%;
+  left: 3.89%;
+  width: 43.06%;
+  bottom: -20%;
+  top: 117.03%;
+  height: 2.97%;
+}
+.rectangle16 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 783px;
+}
+.buah-buahan16 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 21.39%;
+  left: 3.89%;
+  width: 74.72%;
+  bottom: -30.78%;
+  top: 124.84%;
+  height: 5.94%;
+}
+.rectangle17 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 852px;
+}
+.buah-buahan17 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 20.83%;
+  left: 3.89%;
+  width: 75.28%;
+  bottom: -41.56%;
+  top: 135.62%;
+  height: 5.94%;
+}
+.rectangle18 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 921px;
+}
+.buah-buahan18 {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+  position: absolute;
+  right: 25.28%;
+  left: 3.89%;
+  width: 70.83%;
+  bottom: -49.38%;
+  top: 146.41%;
+  height: 2.97%;
+}
+.rectangle19 {
+  background: #f1f2f6;
+  width: 332px;
+  height: 1px;
+  position: absolute;
+  left: 14px;
+  top: 733px;
+}
+.pasar-gunungpati6 {
+  color: #14181b;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 59.44%;
+  left: 3.89%;
+  width: 36.67%;
+  bottom: -12.19%;
+  top: 109.84%;
+  height: 2.34%;
+}
+.group-2 {
+  width: 332px;
+  height: 38px;
+  position: static;
+}
+.jahe {
+  color: #898b8c;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 11px;
+  line-height: 19px;
+  font-weight: 600;
+  position: absolute;
+  right: 3.89%;
+  left: 10.28%;
+  width: 85.83%;
+  bottom: -148.28%;
+  top: 242.34%;
+  height: 5.94%;
+}
+.np-information-89672-000000 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 14px;
+  top: 1551px;
+  overflow: visible;
+}
+.buah-buahan19 {
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 400;
+  position: absolute;
+  right: 3.89%;
+  left: 3.89%;
+  width: 92.22%;
+  bottom: -137.34%;
+  top: 231.41%;
+  height: 5.94%;
+}
+.buah-buahan-19-span {
+  color: #707585;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+}
+.buah-buahan-19-span2 {
+  color: #707585;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 700;
+}
+.buah-buahan-19-span3 {
+  color: #707585;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+}
+.buah-buahan-19-span4 {
+  color: #707585;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 700;
+}
+.buah-buahan-19-span5 {
+  color: #707585;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 500;
+}
+.buah-buahan-19-span6 {
+  color: #f15b5d;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  font-weight: 700;
+}
+.ellipse-5 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  left: 274.23px;
+  top: 553.63px;
+}
+.group-63 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-4 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 280.23px;
+  top: 561.63px;
+}
+.group-64 {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  right: 8.27%;
+  left: 76.17%;
+  width: 15.56%;
+  bottom: 4.75%;
+  top: 86.5%;
+  height: 8.75%;
+  overflow: visible;
+}

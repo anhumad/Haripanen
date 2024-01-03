@@ -1,0 +1,559 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  .notifikasi,
+  .notifikasi * {
+    box-sizing: border-box;
+  }
+  .notifikasi {
+    background: #ffffff;
+    width: 360px;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+  }
+  .base-appbar-rectangle {
+    width: 360px;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .rectangle {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+  }
+  .filter-apply,
+  .filter-apply * {
+    box-sizing: border-box;
+  }
+  .filter-apply {
+    background: #fbfdff;
+    width: 360px;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+  }
+  .app-bar-black {
+    position: absolute;
+    inset: 0;
+  }
+  .rectangle-6 {
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 96.25%;
+    top: 0%;
+    height: 3.75%;
+  }
+  ._5-37 {
+    color: #878b8d;
+    text-align: center;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    right: 0.97%;
+    left: 88.89%;
+    width: 10.14%;
+    bottom: 96.88%;
+    top: 0.94%;
+    height: 2.19%;
+  }
+  .shape {
+    width: 18.45px;
+    height: 14px;
+    position: absolute;
+    left: 222.03px;
+    top: 5px;
+    overflow: visible;
+  }
+  .ic-battery-charging-full-black-24-px {
+    width: 22.57px;
+    height: 17.44px;
+    position: absolute;
+    right: 9.98%;
+    left: 83.75%;
+    width: 6.27%;
+    bottom: 96.81%;
+    top: 0.47%;
+    height: 2.73%;
+    overflow: visible;
+  }
+  .ic-signal-wifi-off-black-24-px {
+    opacity: 0.5;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 16.39%;
+    left: 78.61%;
+    width: 5%;
+    bottom: 96.72%;
+    top: 0.47%;
+    height: 2.81%;
+    overflow: visible;
+  }
+  .rectangle {
+    background: #14181b;
+    position: absolute;
+    right: 25.69%;
+    left: 73.89%;
+    width: 0.42%;
+    bottom: 97.42%;
+    top: 1.17%;
+    height: 1.41%;
+  }
+  .rectangle-copy {
+    background: #14181b;
+    position: absolute;
+    right: 24.31%;
+    left: 75.28%;
+    width: 0.42%;
+    bottom: 97.42%;
+    top: 1.17%;
+    height: 1.41%;
+  }
+  .rectangle-copy-2 {
+    background: #14181b;
+    position: absolute;
+    right: 23.33%;
+    left: 76.25%;
+    width: 0.42%;
+    bottom: 97.42%;
+    top: 1.17%;
+    height: 1.41%;
+  }
+  .rectangle-2 {
+    background: #14181b;
+    position: absolute;
+    right: 23.89%;
+    left: 74.86%;
+    width: 1.25%;
+    bottom: 98.59%;
+    top: 1.17%;
+    height: 0.23%;
+  }
+  .rectangle-2-copy {
+    background: #14181b;
+    position: absolute;
+    right: 25%;
+    left: 73.89%;
+    width: 1.11%;
+    bottom: 97.42%;
+    top: 2.34%;
+    height: 0.23%;
+  }
+  .rectangle-2-copy-3 {
+    background: #14181b;
+    position: absolute;
+    right: 22.5%;
+    left: 76.25%;
+    width: 1.25%;
+    bottom: 97.42%;
+    top: 2.34%;
+    height: 0.23%;
+  }
+  .rectangle-2-copy-5 {
+    background: #14181b;
+    position: absolute;
+    right: 22.5%;
+    left: 76.25%;
+    width: 1.25%;
+    bottom: 98.59%;
+    top: 1.17%;
+    height: 0.23%;
+  }
+  .rectangle-2-copy-4 {
+    background: #14181b;
+    position: absolute;
+    right: 22.78%;
+    left: 76.25%;
+    width: 0.97%;
+    bottom: 98.05%;
+    top: 1.72%;
+    height: 0.23%;
+  }
+  .path-5 {
+    height: auto;
+    position: absolute;
+    right: 27.85%;
+    left: 70.58%;
+    width: 1.56%;
+    bottom: 97.03%;
+    top: 0.79%;
+    height: 2.18%;
+    overflow: visible;
+  }
+  .path-4 {
+    height: auto;
+    position: absolute;
+    right: 29.4%;
+    left: 68.2%;
+    width: 2.41%;
+    bottom: 97.03%;
+    top: 1.68%;
+    height: 1.29%;
+    overflow: visible;
+  }
+  .group-5777 {
+    position: absolute;
+    inset: 0;
+  }
+  .ic-chev-left {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 15px;
+    top: 47px;
+    overflow: hidden;
+  }
+  .budicon-chevron-left {
+    height: auto;
+    position: absolute;
+    right: 39.98%;
+    left: 20%;
+    width: 40.02%;
+    bottom: 8%;
+    top: 15.98%;
+    height: 76.02%;
+    overflow: visible;
+  }
+  .group-37034 {
+    position: absolute;
+    inset: 0;
+  }
+  .group-5794 {
+    width: 328px;
+    height: 108px;
+    position: static;
+  }
+  .rectangle-566 {
+    border-radius: 0px;
+    width: 328px;
+    height: 108px;
+    position: absolute;
+    left: 15px;
+    top: 109px;
+    overflow: visible;
+  }
+  .group-5792 {
+    width: 71px;
+    height: 55px;
+    position: static;
+  }
+  .rp-15-000 {
+    color: #42b549;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    right: 51.39%;
+    left: 32.78%;
+    width: 15.83%;
+    bottom: 70.94%;
+    top: 25.94%;
+    height: 3.12%;
+  }
+  .group-5790 {
+    width: 71px;
+    height: 21px;
+    position: static;
+  }
+  .sayur-sop {
+    color: #252525;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    right: 47.5%;
+    left: 32.78%;
+    width: 19.72%;
+    bottom: 76.25%;
+    top: 20.47%;
+    height: 3.28%;
+  }
+  .group-5787 {
+    width: 95px;
+    height: 28px;
+    position: static;
+  }
+  .rectangle-16 {
+    background: #42b549;
+    border-radius: 5px;
+    position: absolute;
+    right: 7.5%;
+    left: 66.11%;
+    width: 19.39%;
+    bottom: 68.28%;
+    top: 27.34%;
+    height: 4.38%;
+  }
+  .tambahkan {
+    color: #eeeeee;
+    text-align: center;
+    font-family: "AvenirNext-DemiBold", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    right: 10.83%;
+    left: 66.72%;
+    width: 19.44%;
+    bottom: 69.06%;
+    top: 28.12%;
+    height: 2.81%;
+  }
+  .group-5842 {
+    width: 328px;
+    height: 108px;
+    position: static;
+  }
+  .rectangle-5662 {
+    border-radius: 0px;
+    width: 328px;
+    height: 108px;
+    position: absolute;
+    left: 15px;
+    top: 233px;
+    overflow: visible;
+  }
+  .group-57922 {
+    width: 100px;
+    height: 55px;
+    position: static;
+  }
+  .rp-16-500 {
+    color: #42b549;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    right: 51.39%;
+    left: 32.78%;
+    width: 15.83%;
+    bottom: 51.56%;
+    top: 45.31%;
+    height: 3.12%;
+  }
+  .group-57902 {
+    width: 100px;
+    height: 21px;
+    position: static;
+  }
+  .sayur-capcay {
+    color: #252525;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    right: 39.44%;
+    left: 32.78%;
+    width: 27.78%;
+    bottom: 56.88%;
+    top: 39.84%;
+    height: 3.28%;
+  }
+  .rectangle-162 {
+    background: #42b549;
+    border-radius: 5px;
+    position: absolute;
+    right: 7.5%;
+    left: 66.11%;
+    width: 19.39%;
+    bottom: 48.91%;
+    top: 46.72%;
+    height: 4.38%;
+  }
+  .tambahkan2 {
+    color: #eeeeee;
+    text-align: center;
+    font-family: "AvenirNext-DemiBold", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    right: 10.83%;
+    left: 66.72%;
+    width: 19.44%;
+    bottom: 49.69%;
+    top: 47.5%;
+    height: 2.81%;
+  }
+  .group-5843 {
+    width: 328px;
+    height: 108px;
+    position: static;
+  }
+  .rectangle-5663 {
+    border-radius: 0px;
+    width: 328px;
+    height: 108px;
+    position: absolute;
+    left: 15px;
+    top: 357px;
+    overflow: visible;
+  }
+  .group-57923 {
+    width: 84px;
+    height: 55px;
+    position: static;
+  }
+  .rp-12-000 {
+    color: #42b549;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    right: 51.67%;
+    left: 32.78%;
+    width: 15.56%;
+    bottom: 32.19%;
+    top: 64.69%;
+    height: 3.12%;
+  }
+  .group-57903 {
+    width: 84px;
+    height: 21px;
+    position: static;
+  }
+  .sayur-asem {
+    color: #252525;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    right: 43.89%;
+    left: 32.78%;
+    width: 23.33%;
+    bottom: 37.5%;
+    top: 59.22%;
+    height: 3.28%;
+  }
+  .rectangle-163 {
+    background: #42b549;
+    border-radius: 5px;
+    position: absolute;
+    right: 7.5%;
+    left: 66.11%;
+    width: 19.39%;
+    bottom: 29.53%;
+    top: 66.09%;
+    height: 4.38%;
+  }
+  .tambahkan3 {
+    color: #eeeeee;
+    text-align: center;
+    font-family: "AvenirNext-DemiBold", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    right: 10.83%;
+    left: 66.72%;
+    width: 19.44%;
+    bottom: 30.31%;
+    top: 66.88%;
+    height: 2.81%;
+  }
+  .intersect {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 29px;
+    top: 371px;
+    overflow: visible;
+  }
+  .intersect2 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 29px;
+    top: 247px;
+    overflow: visible;
+  }
+  .intersect3 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 29px;
+    top: 120px;
+    overflow: visible;
+  }
+  .group {
+    height: auto;
+    position: absolute;
+    right: 6.23%;
+    left: 88.61%;
+    width: 5.16%;
+    bottom: 89.23%;
+    top: 8.12%;
+    height: 2.65%;
+    overflow: visible;
+  }
+  .group-37035 {
+    position: absolute;
+    inset: 0;
+  }
+  .rectangle-8798 {
+    background: #ffffff;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #061d28;
+    border-width: 0.25px;
+    width: 127px;
+    height: 22px;
+    position: absolute;
+    left: 59px;
+    top: 49px;
+  }
+  .rectangle-8799 {
+    background: #ffffff;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #061d28;
+    border-width: 0.25px;
+    width: 108px;
+    height: 22px;
+    position: absolute;
+    left: 194px;
+    top: 49px;
+  }
+  .rp-5-000-rp-20-000 {
+    color: #4e5356;
+    text-align: left;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    position: absolute;
+    left: 69px;
+    top: 54px;
+  }
+  .paket-sayuran {
+    color: #4e5356;
+    text-align: left;
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    position: absolute;
+    left: 209px;
+    top: 53px;
+  }
+  

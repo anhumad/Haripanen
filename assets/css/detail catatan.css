@@ -1,0 +1,1300 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+.detail-menu-tambahkan-catatan,
+.detail-menu-tambahkan-catatan * {
+  box-sizing: border-box;
+}
+.detail-menu-tambahkan-catatan {
+  background: #ffffff;
+  width: 360px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-3 {
+  width: 360px;
+  height: 160px;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+}
+.base-appbar-rectangle {
+  width: 360px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.icons-navigation-arrow-back {
+  height: auto;
+  position: absolute;
+  right: 88.89%;
+  left: 4.44%;
+  width: 6.67%;
+  bottom: 90%;
+  top: 6.25%;
+  height: 3.75%;
+  overflow: visible;
+}
+.detail-menu {
+  color: #262626;
+  text-align: left;
+  font-family: "AvenirNext-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 60.28%;
+  left: 17.78%;
+  width: 21.94%;
+  bottom: 90.31%;
+  top: 6.72%;
+  height: 2.97%;
+}
+.android-ui-status-bar-light {
+  width: 360px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.android-ui-status-bar-dark {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.background {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+._11-11 {
+  color: rgba(0, 0, 0, 0.54);
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8px;
+  top: calc(50% - 8px);
+  width: 37px;
+}
+.icons-device-network-wifi {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 86px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-device-signal-cellular-4-bar {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 66px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-device-battery-full {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 46px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.group-168 {
+  height: auto;
+  position: absolute;
+  left: 16px;
+  top: 226px;
+  overflow: visible;
+}
+.dafam-special-prawn-cocktail {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 40.83%;
+  left: 4.44%;
+  width: 54.72%;
+  bottom: 57.03%;
+  top: 40%;
+  height: 2.97%;
+}
+.diskon-15 {
+  color: var(--red-80-primary-light, #ff6160);
+  text-align: left;
+  font-family: "AvenirNext-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 74.17%;
+  left: 4.44%;
+  width: 21.39%;
+  bottom: 52.81%;
+  top: 44.22%;
+  height: 2.97%;
+}
+.rp-43-000 {
+  color: var(--black-2, #52575c);
+  text-align: left;
+  font-family: "AvenirNext-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 59.44%;
+  left: 23.06%;
+  width: 17.5%;
+  bottom: 48.59%;
+  top: 48.44%;
+  height: 2.97%;
+}
+.rp-67-000 {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: "AvenirNext-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: line-through;
+  position: absolute;
+  right: 78.06%;
+  left: 4.44%;
+  width: 17.5%;
+  bottom: 48.59%;
+  top: 48.44%;
+  height: 2.97%;
+}
+.rectangle-559 {
+  background: var(--black-5, #e8e8e8);
+  border-radius: 5px;
+  width: 328px;
+  height: 1px;
+  position: absolute;
+  left: 16px;
+  top: 345px;
+}
+.rectangle-560 {
+  background: var(--black-5, #e8e8e8);
+  border-radius: 5px;
+  width: 328px;
+  height: 1px;
+  position: absolute;
+  left: 16px;
+  top: 466px;
+}
+.rectangle-561 {
+  background: var(--black-5, #e8e8e8);
+  border-radius: 5px;
+  width: 328px;
+  height: 1px;
+  position: absolute;
+  left: 16px;
+  top: 519px;
+}
+.buy-products-related {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 77.78%;
+  left: 4.44%;
+  width: 17.78%;
+  top: calc(50% - -42px);
+}
+.buy-products-related2 {
+  color: var(--black-2, #52575c);
+  text-align: left;
+  font-family: "AvenirNext-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 4.44%;
+  left: 4.44%;
+  width: 91.11%;
+  top: calc(50% - -70px);
+  height: 60px;
+}
+.buy-products-related3 {
+  color: var(--blue-60-primary, #2f9cf1);
+  text-align: left;
+  font-family: "Avenir-Roman", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 61.67%;
+  left: 4.44%;
+  width: 33.89%;
+  top: calc(50% - -163px);
+}
+.group-4868 {
+  position: absolute;
+  inset: 0;
+}
+.modal-button-background {
+  width: 360px;
+  height: 64px;
+  position: absolute;
+  left: 0px;
+  top: 576px;
+}
+.bg {
+  background: #ffffff;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.05);
+}
+.btn-big {
+  width: 328px;
+  height: 48px;
+  position: absolute;
+  left: 16px;
+  top: 584px;
+}
+.rectangle-4 {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.pesan {
+  color: #ebf8ff;
+  text-align: center;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  position: absolute;
+  right: 24.04%;
+  left: 24.36%;
+  width: 51.6%;
+  bottom: 22.92%;
+  top: 27.08%;
+  height: 50%;
+}
+.group-4866 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-4-1 {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 59.44%;
+  left: 20.28%;
+  width: 20.28%;
+  bottom: 83.44%;
+  top: 12.5%;
+  height: 4.06%;
+  transform: translate(-73px, 0px);
+  overflow: visible;
+}
+.pilihan-servis {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 82.22%;
+  left: 2.22%;
+  width: 15.56%;
+  bottom: 84.06%;
+  top: 13.44%;
+  height: 2.5%;
+}
+.rectangle-2-1 {
+  width: 360px;
+  height: 176px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.android-ui-keyboards-qwerty {
+  width: 360px;
+  height: 249px;
+  position: absolute;
+  left: 0px;
+  top: 391px;
+}
+.android-ui-keyboards-keyboard-lowercase-light {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 17.67%;
+  height: 82.33%;
+}
+.background2 {
+  background: #eceff0;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+._123 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.800000011920929;
+  position: absolute;
+  left: 12px;
+  bottom: 19px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+._123-span {
+  color: #061d28;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+._123-span2 {
+  color: #061d28;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.div {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  right: 71px;
+  bottom: 17px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.a {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 87.78%;
+  left: 8.61%;
+  width: 3.61%;
+  bottom: 56.1%;
+  top: 30.73%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.s {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 78.06%;
+  left: 18.61%;
+  width: 3.33%;
+  bottom: 56.1%;
+  top: 30.73%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.z {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 78.06%;
+  left: 18.61%;
+  width: 3.33%;
+  bottom: 31.71%;
+  top: 55.12%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.div2 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.800000011920929;
+  position: absolute;
+  left: 67px;
+  bottom: 16px;
+  width: 12px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.x {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 68.06%;
+  left: 28.33%;
+  width: 3.61%;
+  bottom: 31.71%;
+  top: 55.12%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.c {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 58.33%;
+  left: 38.06%;
+  width: 3.61%;
+  bottom: 31.71%;
+  top: 55.12%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.v {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 48.33%;
+  left: 47.78%;
+  width: 3.89%;
+  bottom: 31.71%;
+  top: 55.12%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.b {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 38.33%;
+  left: 57.78%;
+  width: 3.89%;
+  bottom: 31.71%;
+  top: 55.12%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.m {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 17.5%;
+  left: 76.67%;
+  width: 5.83%;
+  bottom: 31.71%;
+  top: 55.12%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.n {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 28.33%;
+  left: 67.78%;
+  width: 3.89%;
+  bottom: 31.71%;
+  top: 55.12%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.d {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 68.06%;
+  left: 28.33%;
+  width: 3.61%;
+  bottom: 56.1%;
+  top: 30.73%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.f {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 59.11%;
+  left: 38.67%;
+  width: 2.22%;
+  bottom: 56.1%;
+  top: 30.73%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.g {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 48.33%;
+  left: 48.06%;
+  width: 3.61%;
+  bottom: 56.1%;
+  top: 30.73%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.h {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 38.28%;
+  left: 57.83%;
+  width: 3.89%;
+  bottom: 56.1%;
+  top: 30.73%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.j {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 29.15%;
+  left: 69.18%;
+  width: 1.67%;
+  bottom: 56.1%;
+  top: 30.73%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.k {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 18.89%;
+  left: 77.78%;
+  width: 3.33%;
+  bottom: 56.1%;
+  top: 30.73%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.l {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 9.72%;
+  left: 88.61%;
+  width: 1.67%;
+  bottom: 56.1%;
+  top: 30.73%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.q-1 {
+  position: absolute;
+  inset: 0;
+}
+.q {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 92.78%;
+  left: 3.89%;
+  width: 3.33%;
+  bottom: 80.98%;
+  top: 5.85%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+._1 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  right: 90.83%;
+  left: 7.5%;
+  width: 1.67%;
+  bottom: 90.73%;
+  top: 3.41%;
+  height: 5.85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.w-2 {
+  position: absolute;
+  inset: 0;
+}
+._2 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  right: 80.83%;
+  left: 17.22%;
+  width: 1.94%;
+  bottom: 90.73%;
+  top: 3.41%;
+  height: 5.85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.w {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 82.22%;
+  left: 12.78%;
+  width: 5%;
+  bottom: 80.98%;
+  top: 5.85%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.e-3 {
+  position: absolute;
+  inset: 0;
+}
+._3 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  right: 71.11%;
+  left: 27.22%;
+  width: 1.67%;
+  bottom: 90.73%;
+  top: 3.41%;
+  height: 5.85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.e {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 73.06%;
+  left: 23.33%;
+  width: 3.61%;
+  bottom: 80.98%;
+  top: 5.85%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.r-4 {
+  position: absolute;
+  inset: 0;
+}
+._4 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  right: 61.11%;
+  left: 37.22%;
+  width: 1.67%;
+  bottom: 90.73%;
+  top: 3.41%;
+  height: 5.85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.r {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 63.89%;
+  left: 33.61%;
+  width: 2.5%;
+  bottom: 80.98%;
+  top: 5.85%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.r-5 {
+  position: absolute;
+  inset: 0;
+}
+._5 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  right: 51.11%;
+  left: 46.94%;
+  width: 1.94%;
+  bottom: 90.73%;
+  top: 3.41%;
+  height: 5.85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.t {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 53.89%;
+  left: 43.89%;
+  width: 2.22%;
+  bottom: 80.98%;
+  top: 5.85%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.y-6 {
+  position: absolute;
+  inset: 0;
+}
+._6 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  right: 41.11%;
+  left: 56.94%;
+  width: 1.94%;
+  bottom: 90.73%;
+  top: 3.41%;
+  height: 5.85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.y {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 43.61%;
+  left: 53.33%;
+  width: 3.06%;
+  bottom: 80.98%;
+  top: 5.85%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.u-7 {
+  position: absolute;
+  inset: 0;
+}
+._7 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  right: 31.39%;
+  left: 66.94%;
+  width: 1.67%;
+  bottom: 90.73%;
+  top: 3.41%;
+  height: 5.85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.u {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 33.33%;
+  left: 62.78%;
+  width: 3.89%;
+  bottom: 80.98%;
+  top: 5.85%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.i-8 {
+  position: absolute;
+  inset: 0;
+}
+._8 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  right: 21.39%;
+  left: 76.67%;
+  width: 1.94%;
+  bottom: 90.73%;
+  top: 3.41%;
+  height: 5.85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.i {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 24.44%;
+  left: 73.89%;
+  width: 1.67%;
+  bottom: 80.98%;
+  top: 5.85%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.o-9 {
+  position: absolute;
+  inset: 0;
+}
+._9 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  right: 11.39%;
+  left: 86.39%;
+  width: 2.22%;
+  bottom: 90.73%;
+  top: 3.41%;
+  height: 5.85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.o {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 13.61%;
+  left: 82.78%;
+  width: 3.61%;
+  bottom: 80.98%;
+  top: 5.85%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.p-0 {
+  position: absolute;
+  inset: 0;
+}
+._0 {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  right: 1.39%;
+  left: 96.39%;
+  width: 2.22%;
+  bottom: 90.73%;
+  top: 3.41%;
+  height: 5.85%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.p {
+  color: #061d28;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  position: absolute;
+  right: 3.61%;
+  left: 92.5%;
+  width: 3.89%;
+  bottom: 80.98%;
+  top: 5.85%;
+  height: 13.17%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.backspace {
+  height: auto;
+  position: absolute;
+  right: 4.72%;
+  left: 88.33%;
+  width: 6.94%;
+  bottom: 32.2%;
+  top: 58.05%;
+  height: 9.76%;
+  overflow: visible;
+}
+.space-bar {
+  background: #061d28;
+  border-radius: 3px;
+  opacity: 0.15000000596046448;
+  height: 23px;
+  position: absolute;
+  right: 101px;
+  left: 136px;
+  bottom: 17px;
+}
+.shift {
+  height: auto;
+  position: absolute;
+  right: 88.61%;
+  left: 4.72%;
+  width: 6.67%;
+  bottom: 32.68%;
+  top: 57.07%;
+  height: 10.24%;
+  overflow: visible;
+}
+.icons-social-sentiment-satisfied {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 96px;
+  bottom: 17px;
+  overflow: visible;
+}
+.android-ui-keyboards-buttons-return-search {
+  height: auto;
+  position: absolute;
+  right: 3.33%;
+  left: 87.22%;
+  width: 9.44%;
+  bottom: 5.85%;
+  top: 77.56%;
+  height: 16.59%;
+  overflow: visible;
+}
+.android-ui-keyboards-g-search-light {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 82.33%;
+  top: 0%;
+  height: 17.67%;
+}
+.android-ui-keyboards-g-search-dark {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.background3 {
+  background: #e3e7ea;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.g-search {
+  position: absolute;
+  inset: 0;
+}
+.ellipse6 {
+  background: #ffffff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 8px;
+  top: calc(50% - 15px);
+}
+.g-icon {
+  width: 18px;
+  height: 18.37px;
+  position: absolute;
+  left: 14px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.microphone {
+  height: auto;
+  position: absolute;
+  right: 9px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.group-4871 {
+  position: absolute;
+  inset: 0;
+}
+.group-4869 {
+  width: 360px;
+  height: 266px;
+  position: static;
+}
+.bg2 {
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 38.91%;
+  top: 19.53%;
+  height: 41.56%;
+}
+.dismiss-slide {
+  background: #dadada;
+  border-radius: 1px;
+  opacity: 0.5;
+  width: 30px;
+  height: 4px;
+  position: absolute;
+  left: calc(50% - 15px);
+  top: 133px;
+}
+.field-border {
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--black-3, #a0a4a8);
+  border-width: 1px;
+  position: absolute;
+  right: 4.44%;
+  left: 4.44%;
+  width: 91.11%;
+  bottom: 52.97%;
+  top: 30.16%;
+  height: 16.88%;
+}
+.label {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: var(--field-f-1-12-font-family, "OpenSans-Regular", sans-serif);
+  font-size: var(--field-f-1-12-font-size, 12px);
+  line-height: var(--field-f-1-12-line-height, 16px);
+  font-weight: var(--field-f-1-12-font-weight, 400);
+  position: absolute;
+  right: 38px;
+  left: 28px;
+  top: 201px;
+  height: 13px;
+}
+.group-4870 {
+  width: 328px;
+  height: 26px;
+  position: static;
+}
+.counter {
+  color: var(--black-3, #a0a4a8);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 310px;
+  left: 16px;
+  bottom: 301px;
+}
+.btn-small {
+  width: 72px;
+  height: 46px;
+  position: absolute;
+  left: 272px;
+  top: 309px;
+}
+.rectangle-42 {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.selesai {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 12.5%;
+  left: 20.83%;
+  width: 66.67%;
+  bottom: 26.92%;
+  top: 27.38%;
+  height: 57.69%;
+}
+.counter2 {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-DemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 215px;
+  left: 16px;
+  bottom: 463px;
+}

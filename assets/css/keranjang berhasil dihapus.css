@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  .voucher-tidak-tersedia,
+  .voucher-tidak-tersedia * {
+    box-sizing: border-box;
+  }
+  .voucher-tidak-tersedia {
+    background: #ffffff;
+    width: 360px;
+    height: 641px;
+    position: relative;
+    overflow: hidden;
+  }
+  .gambar{
+    position: relative;
+    width: 255px;
+    height: 192px;
+    top: 24%;
+    left: 15%;
+    justify-content: center;
+  }
+  .rectangle {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 78.78%;
+    top: 0%;
+    height: 21.22%;
+    overflow: visible;
+  }
+  .group-401 {
+    position: absolute;
+    inset: 0;
+  }
+  .search-elipse {
+    border-radius: 0px;
+    height: auto;
+    position: absolute;
+    right: 4.44%;
+    left: 4.44%;
+    width: 91.11%;
+    bottom: 81.28%;
+    top: 12.48%;
+    height: 6.24%;
+    overflow: visible;
+  }
+  .cari-sayur-bumbu-dapur-lauk-pauk {
+    color: var(--black-3, #a0a4a8);
+    text-align: left;
+    font-family: var(--field-f-1-12-font-family, "OpenSans-Regular", sans-serif);
+    font-size: var(--field-f-1-12-font-size, 12px);
+    line-height: var(--field-f-1-12-line-height, 16px);
+    font-weight: var(--field-f-1-12-font-weight, 400);
+    position: absolute;
+    right: 46.11%;
+    left: 8.89%;
+    width: 45%;
+    bottom: 83.15%;
+    top: 14.35%;
+    height: 2.5%;
+  }
+  .voucher-tersedia {
+    color: var(--black-80, #404040);
+    text-align: left;
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    right: 51.39%;
+    left: 7.78%;
+    width: 30.83%;
+    bottom: 90.33%;
+    top: 6.71%;
+    height: 2.96%;
+  }
+  .android-ui-status-bar-light {
+    width: 360px;
+    height: 24px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .android-ui-status-bar-dark {
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+  }
+  .background {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+  }
+  ._11-11 {
+    color: rgba(0, 0, 0, 0.54);
+    text-align: right;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    right: 8px;
+    top: calc(50% - 8px);
+    width: 37px;
+  }
+  .icons-device-network-wifi {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 86px;
+    top: calc(50% - 9px);
+    overflow: visible;
+  }
+  .icons-device-signal-cellular-4-bar {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 66px;
+    top: calc(50% - 9px);
+    overflow: visible;
+  }
+  .icons-device-battery-full {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 46px;
+    top: calc(50% - 9px);
+    overflow: visible;
+  }
+  .icons-navigation-close {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 16px;
+    top: 40px;
+    overflow: visible;
+  }
+  .group-334 {
+    position: absolute;
+    inset: 0;
+  }
+  .group-306 {
+    width: 240px;
+    height: 240px;
+    position: static;
+  }
+  .rectangle-80 {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    left: 60px;
+    top: 176px;
+  }
+  .group-239 {
+    width: 227px;
+    height: 149.9px;
+    position: absolute;
+    right: 18.61%;
+    left: 18.33%;
+    width: 63.06%;
+    bottom: 43.23%;
+    top: 33.39%;
+    height: 23.39%;
+    overflow: visible;
+  }
+  .group-333 {
+    width: 160px;
+    height: 142.18px;
+    position: absolute;
+    right: 27.78%;
+    left: 27.78%;
+    width: 44.44%;
+    bottom: 39.91%;
+    top: 37.91%;
+    height: 22.18%;
+    overflow: visible;
+  }
+  .categories {
+    color: var(--black-1, #25282b);
+    text-align: center;
+    font-family: "AvenirNext-DemiBold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    right: 13.89%;
+    left: 13.89%;
+    width: 72.22%;
+    bottom: 31.2%;
+    top: 64.9%;
+    height: 3.9%;
+  }
+  ._7-500 {
+    color: var(--black-2, #52575c);
+    text-align: center;
+    font-family: "AvenirNext-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    right: 20.83%;
+    left: 21.11%;
+    width: 58.06%;
+    bottom: 25.27%;
+    top: 69.73%;
+    height: 4.99%;
+  }
+  .frame-36997 {
+    width: 325px;
+    height: 56px;
+    position: absolute;
+    left: 16px;
+    top: 564px;
+  }
+  .rectangle-1 {
+    background: #ffffff;
+    border-radius: 25px;
+    width: 325px;
+    height: 56px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px -1px 4px 0px rgba(0, 0, 0, 0.1);
+  }
+  .vector2 {
+    height: auto;
+    position: absolute;
+    right: 92.61%;
+    left: 4.72%;
+    width: 2.67%;
+    bottom: 88.74%;
+    top: 5.69%;
+    height: 2.85%;
+    overflow: visible;
+  }
+  .frame-37000 {
+    display: flex;
+    flex-direction: row;
+    gap: 59px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 36px;
+    top: 18px;
+  }
+  .union {
+    flex-shrink: 0;
+    width: 18px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .group9 {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }
+  .group10 {
+    flex-shrink: 0;
+    width: 19.44px;
+    height: 16px;
+    position: relative;
+    overflow: visible;
+  }
+  .group11 {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: visible;
+  }  

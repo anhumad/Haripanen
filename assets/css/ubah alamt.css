@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  .tambah-alamat,
+.tambah-alamat * {
+  box-sizing: border-box;
+}
+.tambah-alamat {
+  background: #ffffff;
+  width: 360px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.base-appbar-rectangle {
+  width: 360px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.frame-454 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  right: 4.44%;
+  left: 4.44%;
+  width: 91.11%;
+  bottom: -132.5%;
+  top: 142.5%;
+  height: 90%;
+}
+.setel-sebagai {
+  color: #000000;
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+.frame-391 {
+  background: var(--form-controler-bg, #fdfdff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e4e6fc;
+  border-width: 1px;
+  padding: 16px 14px 16px 17px;
+  flex-direction: row;
+  gap: 10px;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-391 {
+    background: var(--form-controler-bg, #fdfdff);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #e4e6fc;
+    border-width: 1px;
+    padding: 16px 14px 16px 17px;
+    flex-direction: row;
+    gap: 10px;
+    flex-shrink: 0;
+    position: relative;
+  }
+  .frame-391 {
+    background: var(--form-controler-bg, #fdfdff);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #e4e6fc;
+    border-width: 1px;
+    padding: 16px 212px 16px 17px;
+    flex-direction: row;
+    gap: 10px;
+    flex-shrink: 0;
+    position: relative;
+  }
+.rumah {
+  color: #000000;
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 202px;
+}
+.icons-navigation-arrow-back {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 16px;
+  top: 40px;
+  overflow: visible;
+}
+.ubah-alamat {
+  color: var(--black-80, #404040);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 54px;
+  top: 43px;
+}
+.group-5577 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-8767 {
+  background: #42b549;
+  border-radius: 4px;
+  width: 328px;
+  height: 43px;
+  position: absolute;
+  left: 16px;
+  top: 562px;
+  box-shadow: 0px 10px 15px 0px rgba(51, 131, 225, 0.2);
+}
+.selesai {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  position: absolute;
+  left: 154px;
+  top: 574px;
+}
+.group-37007 {
+  position: absolute;
+  inset: 0;
+}
+.frame-392 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 328px;
+  height: 76.34px;
+  position: absolute;
+  left: 17px;
+  top: 204px;
+}
+.nama-lengkap {
+  color: #000000;
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+.mohammad-arkham {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 245px;
+}
+.frame-450 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 76.34px;
+  position: absolute;
+  left: 17px;
+  top: 288.83px;
+}
+.frame-444 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 328px;
+  height: 72px;
+  position: relative;
+}
+.nomor-telepon {
+  color: #000000;
+  text-align: left;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+}
+._081228819994 {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 202px;
+}
+.frame-453 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 328px;
+  height: 76.34px;
+  position: absolute;
+  left: 17px;
+  top: 373.66px;
+}
+.alamat-pengiriman-detail-alamat-dengan-nomor-rumah-warna-dan-lainnya {
+  color: #000000;
+  text-align: left;
+  position: relative;
+}
+.alamat-pengiriman-detail-alamat-dengan-nomor-rumah-warna-dan-lainnya-span {
+  color: #000000;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.alamat-pengiriman-detail-alamat-dengan-nomor-rumah-warna-dan-lainnya-span2 {
+  color: #000000;
+  font-family: "Poppins-Light", sans-serif;
+  font-size: 7px;
+  font-weight: 300;
+}
+.jln-lempongsari-1-nomor-405-batununggal-kota-bandung-jawa-barat-40622 {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  position: relative;
+  width: 302px;
+}
+.rectangle-8794 {
+  background: #d0393b;
+  border-radius: 4px;
+  width: 328px;
+  height: 42px;
+  position: absolute;
+  left: 17px;
+  top: 508px;
+}
+.hapus-alamat {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 45px);
+  top: 520px;
+}

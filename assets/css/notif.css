@@ -1,0 +1,339 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.notifikasi,
+.notifikasi * {
+  box-sizing: border-box;
+}
+.notifikasi {
+  background: #ffffff;
+  width: 360px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.base-appbar-rectangle {
+  width: 360px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 88.44%;
+  left: 8.89%;
+  width: 2.67%;
+  bottom: 23.44%;
+  top: 53.75%;
+  height: 22.81%;
+  overflow: visible;
+}
+.notification {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 23.89%;
+  left: 21.39%;
+  width: 54.72%;
+  bottom: 22.5%;
+  top: 51.25%;
+  height: 26.25%;
+}
+.android-ui-status-bar-light {
+  width: 360px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.android-ui-status-bar-dark {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.background {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+._11-11 {
+  color: rgba(0, 0, 0, 0.54);
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8px;
+  top: calc(50% - 8px);
+  width: 37px;
+}
+.icons-device-network-wifi {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 86px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-device-signal-cellular-4-bar {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 66px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-device-battery-full {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 46px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.unsplash-p-l-kg-cs-b-oiw-4 {
+  background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #42b549;
+  border-width: 2px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 17px;
+  top: 100px;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.12);
+}
+.unsplash-oqtaf-yt-5-k-tw {
+  background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #42b549;
+  border-width: 2px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 17px;
+  top: 170px;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.12);
+}
+.unsplash-t-0-nojy-p-gbok {
+  background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #42b549;
+  border-width: 2px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 16px;
+  top: 241px;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.12);
+}
+.unsplash-jpkfc-5-d-di {
+  background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #42b549;
+  border-width: 2px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 15px;
+  top: 314px;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.12);
+}
+.unsplash-ntyyl-9-eb-9-y-8 {
+  background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #42b549;
+  border-width: 2px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 15px;
+  top: 383px;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.12);
+}
+.ellipse-37 {
+  background: #f8a435;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 47px;
+  top: 98px;
+}
+.ellipse-46 {
+  background: #f8a435;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 47px;
+  top: 168px;
+}
+._2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Outfit-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 54px;
+  top: 101px;
+}
+._22 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Outfit-Bold", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: 54px;
+  top: 171px;
+}
+.promo-bulan-ini-diskon-15-tiap-menggunakan-voucher-dan-gratis-ongkir {
+  color: #000000;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 87px;
+  top: 110px;
+  width: 244px;
+  height: 32px;
+}
+.lihat-berita-hari-ini-bahwa-kandungan-gizi-yang-ada-pada-sayur-bayam-sangatlah-banyak {
+  color: #000000;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 87px;
+  top: 177px;
+  width: 244px;
+  height: 32px;
+}
+.segera-gunakan-vouchermu-sebelum-hangus {
+  color: #000000;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 87px;
+  top: 251px;
+  width: 244px;
+  height: 32px;
+}
+.banyak-penawaran-spesial-untukmu-hari-ini {
+  color: #000000;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 87px;
+  top: 324px;
+  width: 244px;
+  height: 32px;
+}
+.temukan-cluster-baru-di-haripanen-id {
+  color: #000000;
+  text-align: left;
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 87px;
+  top: 394px;
+  width: 244px;
+  height: 32px;
+}
+._1-m-ago {
+  color: #b4b9c1;
+  text-align: left;
+  font-family: "Outfit-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 285px;
+  top: 133px;
+}
+._1-m-ago2 {
+  color: #b4b9c1;
+  text-align: left;
+  font-family: "Outfit-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  left: 285px;
+  top: 200px;
+}
+._10-hrs-ago {
+  color: #b4b9c1;
+  text-align: left;
+  font-family: "Outfit-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 276px;
+  top: 283px;
+}
+._10-hrs-ago2 {
+  color: #b4b9c1;
+  text-align: left;
+  font-family: "Outfit-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 276px;
+  top: 350px;
+}
+._10-hrs-ago3 {
+  color: #b4b9c1;
+  text-align: left;
+  font-family: "Outfit-Medium", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  left: 276px;
+  top: 419px;
+}

@@ -1,0 +1,507 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  .daftar-transaksi,
+  .daftar-transaksi * {
+    box-sizing: border-box;
+  }
+  .daftar-transaksi {
+    background: #fbfdff;
+    width: 360px;
+    height: 640px;
+    position: relative;
+    overflow-y: auto;
+  }
+  .detail-order-pilihan-membatalkan,
+.detail-order-pilihan-membatalkan * {
+  box-sizing: border-box;
+}
+.detail-order-pilihan-membatalkan {
+  background: #fbfdff;
+  width: 360px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.card {
+  height: auto;
+  position: absolute;
+  right: -0.07%;
+  left: 0.07%;
+  width: 100%;
+  bottom: 69.22%;
+  top: 6.56%;
+  height: 24.22%;
+  overflow: visible;
+}
+.group-26 {
+  position: absolute;
+  inset: 0;
+}
+.jarak-lokas {
+  color: #707585;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 83.82%;
+  left: 3.96%;
+  width: 12.22%;
+  bottom: 80.31%;
+  top: 17.34%;
+  height: 2.34%;
+}
+.jarak-lokas2 {
+  color: #4e5356;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 81.04%;
+  left: 3.96%;
+  width: 15%;
+  bottom: 88.75%;
+  top: 8.91%;
+  height: 2.34%;
+}
+.jarak-lokas3 {
+  color: #4e5356;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 62.71%;
+  left: 3.96%;
+  width: 33.33%;
+  bottom: 84.53%;
+  top: 13.12%;
+  height: 2.34%;
+}
+.jarak-lokas4 {
+  color: #14181b;
+  text-align: left;
+  font-family: "Lato-ExtraBold", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  position: absolute;
+  right: 4.1%;
+  left: 80.9%;
+  width: 15%;
+  bottom: 88.91%;
+  top: 8.91%;
+  height: 2.19%;
+}
+.jarak-lokas5 {
+  color: #14181b;
+  text-align: left;
+  font-family: "Lato-ExtraBold", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  position: absolute;
+  right: 4.1%;
+  left: 80.9%;
+  width: 15%;
+  bottom: 84.53%;
+  top: 13.28%;
+  height: 2.19%;
+}
+.jarak-lokas6 {
+  color: #4e5356;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 83.82%;
+  left: 3.96%;
+  width: 12.22%;
+  bottom: 80.31%;
+  top: 17.34%;
+  height: 2.34%;
+}
+.jarak-lokas7 {
+  color: #14181b;
+  text-align: left;
+  font-family: "Lato-ExtraBold", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  position: absolute;
+  right: 4.1%;
+  left: 82.85%;
+  width: 13.06%;
+  bottom: 80.31%;
+  top: 17.5%;
+  height: 2.19%;
+}
+.subtotal {
+  color: #4e5356;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 64.38%;
+  left: 3.96%;
+  width: 31.67%;
+  bottom: 71.56%;
+  top: 26.09%;
+  height: 2.34%;
+}
+.rp-45000 {
+  color: #14181b;
+  text-align: left;
+  font-family: "Lato-ExtraBold", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  position: absolute;
+  right: 4.1%;
+  left: 80.9%;
+  width: 15%;
+  bottom: 71.72%;
+  top: 26.09%;
+  height: 2.19%;
+}
+.rectangle-5 {
+  background: #dfe4e9;
+  width: 330px;
+  height: 1px;
+  position: absolute;
+  left: 15.25px;
+  top: 146px;
+}
+.card2 {
+  height: auto;
+  position: absolute;
+  right: -0.07%;
+  left: 0.07%;
+  width: 100%;
+  bottom: 26.56%;
+  top: 33.12%;
+  height: 40.31%;
+  overflow: visible;
+}
+.group-27 {
+  position: absolute;
+  inset: 0;
+}
+.pasar-gunungpati {
+  color: #14181b;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: 52.71%;
+  left: 3.96%;
+  width: 43.33%;
+  bottom: 62.19%;
+  top: 35.47%;
+  height: 2.34%;
+}
+.group-11 {
+  width: 331.85px;
+  height: 16px;
+  position: static;
+}
+.jarak-lokas8 {
+  color: #4e5356;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  right: 32.43%;
+  left: 3.96%;
+  width: 63.61%;
+  bottom: 57.5%;
+  top: 40.16%;
+  height: 2.34%;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: 3.86%;
+  left: 88.96%;
+  width: 7.18%;
+  bottom: 57.34%;
+  top: 40.16%;
+  height: 2.5%;
+  overflow: visible;
+}
+.rectangle-6 {
+  background: #f9f9f9;
+  border-radius: 5px;
+  width: 332px;
+  height: 112px;
+  position: absolute;
+  left: 14.25px;
+  top: 288px;
+}
+.group-13 {
+  width: 198px;
+  height: 82px;
+  position: static;
+}
+.pasar-gunungpati2 {
+  color: #f15b5d;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  position: absolute;
+  right: 22.43%;
+  left: 22.57%;
+  width: 55%;
+  bottom: 39.84%;
+  top: 57.5%;
+  height: 2.66%;
+}
+.upload-picture {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 155.25px;
+  top: 303px;
+  overflow: hidden;
+}
+.group {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+.group-12 {
+  width: 245px;
+  height: 40px;
+  position: static;
+}
+.subtotal2 {
+  color: #4e5356;
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 81.32%;
+  left: 3.96%;
+  width: 14.72%;
+  bottom: 32.81%;
+  top: 64.84%;
+  height: 2.34%;
+}
+.subtotal3 {
+  color: #4e5356;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 27.99%;
+  left: 3.96%;
+  width: 68.06%;
+  bottom: 28.91%;
+  top: 68.75%;
+  height: 2.34%;
+}
+.card-subtotal {
+  height: auto;
+  position: absolute;
+  right: -0.07%;
+  left: 0.07%;
+  width: 100%;
+  bottom: 2.34%;
+  top: 75.78%;
+  height: 21.88%;
+  overflow: visible;
+}
+.group-28 {
+  position: absolute;
+  inset: 0;
+}
+.group-21 {
+  width: 332px;
+  height: 40px;
+  position: static;
+}
+.rectangle-4-10 {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 3.82%;
+  left: 3.96%;
+  width: 92.22%;
+  bottom: 10.94%;
+  top: 82.81%;
+  height: 6.25%;
+  overflow: visible;
+}
+.bawa-ke-keranjang {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  right: 31.6%;
+  left: 31.74%;
+  width: 36.67%;
+  bottom: 12.66%;
+  top: 84.69%;
+  height: 2.66%;
+}
+.group-20 {
+  width: 331px;
+  height: 40px;
+  position: static;
+}
+.rectangle-4-11 {
+  border-radius: 5px;
+  position: absolute;
+  right: 4.1%;
+  left: 3.96%;
+  width: 91.94%;
+  bottom: 4.69%;
+  top: 89.06%;
+  height: 6.25%;
+  box-shadow: 0px 5px 10px 0px rgba(237, 107, 90, 0.3);
+}
+.bawa-ke-keranjang2 {
+  color: #9fa3a6;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  right: 33.82%;
+  left: 34.24%;
+  width: 31.94%;
+  bottom: 6.41%;
+  top: 90.94%;
+  height: 2.66%;
+}
+.subtotal4 {
+  color: #4e5356;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 67.71%;
+  left: 3.96%;
+  width: 28.33%;
+  bottom: 19.53%;
+  top: 78.12%;
+  height: 2.34%;
+}
+.rectangle-2-1 {
+  width: 360px;
+  height: 640px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.group-140 {
+  position: absolute;
+  inset: 0;
+}
+.card3 {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 3.89%;
+  left: 3.89%;
+  width: 92.22%;
+  bottom: 38.75%;
+  top: 38.75%;
+  height: 22.5%;
+  overflow: visible;
+}
+.pasar-gunungpati3 {
+  color: #14181b;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 600;
+  position: absolute;
+  right: 21.67%;
+  left: 21.67%;
+  width: 56.67%;
+  bottom: 50.16%;
+  top: 42.66%;
+  height: 7.19%;
+}
+.group-55 {
+  width: 289px;
+  height: 40px;
+  position: static;
+}
+.rectangle-4-102 {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 3.89%;
+  left: 51.94%;
+  width: 44.17%;
+  bottom: 41.72%;
+  top: 52.03%;
+  height: 6.25%;
+  overflow: visible;
+}
+.bawa-ke-keranjang3 {
+  color: #9fa3a6;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  right: 9.17%;
+  left: 60%;
+  width: 30.83%;
+  bottom: 43.44%;
+  top: 53.91%;
+  height: 2.66%;
+}
+.bawa-ke-keranjang4 {
+  color: #f15b5d;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  right: 58.33%;
+  left: 15.83%;
+  width: 25.83%;
+  bottom: 43.44%;
+  top: 53.91%;
+  height: 2.66%;
+}
+.rectangle-28 {
+  border-radius: 6px;
+  border-style: solid;
+  border-color: #f15b5d;
+  border-width: 1px;
+  width: 147px;
+  height: 41px;
+  position: absolute;
+  left: 38px;
+  top: 333px;
+}
+

@@ -1,0 +1,397 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.login-google,
+.login-google * {
+  box-sizing: border-box;
+}
+.login-google {
+  background: #fbfdff;
+  width: 360px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.group-19 {
+  position: absolute;
+  inset: 0;
+}
+.card {
+  background: #ffffff;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 89.38%;
+  top: 0%;
+  height: 10.62%;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.group {
+  width: 92px;
+  height: 17px;
+  position: static;
+}
+.pencarian-produk-terpopuler {
+  color: #14181b;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  right: 59.44%;
+  left: 15%;
+  width: 25.56%;
+  bottom: 91.41%;
+  top: 5.94%;
+  height: 2.66%;
+}
+.jahe {
+  color: #9fa3a6;
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  position: absolute;
+  right: 9.17%;
+  left: 8.89%;
+  width: 81.94%;
+  bottom: 2.34%;
+  top: 92.03%;
+  height: 5.62%;
+}
+.jahe-span {
+  color: #9fa3a6;
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.jahe-span2 {
+  color: #9fa3a6;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.jahe-span3 {
+  color: #9fa3a6;
+  font-family: "Montserrat-Light", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.jahe-span4 {
+  color: #9fa3a6;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.rectangle-103 {
+  width: 360px;
+  height: 640px;
+  position: absolute;
+  left: calc(50% - 180px);
+  top: 0px;
+  overflow: visible;
+}
+.group-5722 {
+  position: absolute;
+  inset: 0;
+}
+.group-980 {
+  width: 343px;
+  height: 497px;
+  position: static;
+}
+.rectangle-104 {
+  background: #ffffff;
+  border-radius: 8px;
+  width: 343px;
+  height: 497px;
+  position: absolute;
+  left: 8px;
+  top: 80px;
+  box-shadow: var(
+    --card-shadow-box-shadow,
+    0px 4px 8px 0px rgba(64, 64, 64, 0.08)
+  );
+}
+.to-continue-google-will-share-your-name-email-address-and-picture-with-forus {
+  color: var(--disabledtext, #9b9b9b);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  position: absolute;
+  left: 32px;
+  top: 525px;
+  width: 295px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pilih-akun {
+  color: #000000;
+  text-align: center;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  left: 130px;
+  top: 192px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lanjut-ke-haripanen-id {
+  color: #000000;
+  text-align: center;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 106px;
+  top: 227px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.group-976 {
+  width: 295px;
+  height: 32px;
+  position: static;
+}
+.ellipse-6 {
+  background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 32px;
+  top: 278px;
+}
+.group-975 {
+  width: 247px;
+  height: 32px;
+  position: static;
+}
+.reksa-mohammad {
+  color: var(--black-80, #404040);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 80px;
+  top: 278px;
+  width: 247px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.reksa-mohammad-gmail-com {
+  color: var(--black-80, #404040);
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 296px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-977 {
+  width: 295px;
+  height: 32px;
+  position: static;
+}
+.ellipse-62 {
+  background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 32px;
+  top: 343px;
+}
+.lorem-ipsum {
+  color: var(--black-80, #404040);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 80px;
+  top: 343px;
+  width: 247px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lorem-ipsum-email-com {
+  color: var(--black-80, #404040);
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 361px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-978 {
+  width: 295px;
+  height: 32px;
+  position: static;
+}
+.ellipse-63 {
+  background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 32px;
+  top: 408px;
+}
+.ariaseta-setia-alam {
+  color: var(--black-80, #404040);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 80px;
+  top: 408px;
+  width: 247px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._07-ariaseta-gmail-com {
+  color: var(--black-80, #404040);
+  text-align: left;
+  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: absolute;
+  left: 80px;
+  top: 426px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-105 {
+  background: var(--disabled, #e4e4e4);
+  width: 295px;
+  height: 1px;
+  position: absolute;
+  left: 32px;
+  top: 326px;
+}
+.rectangle-106 {
+  background: var(--disabled, #e4e4e4);
+  width: 295px;
+  height: 1px;
+  position: absolute;
+  left: 32px;
+  top: 391px;
+}
+.rectangle-107 {
+  background: var(--disabled, #e4e4e4);
+  width: 295px;
+  height: 1px;
+  position: absolute;
+  left: 32px;
+  top: 456px;
+}
+.rectangle-108 {
+  background: var(--disabled, #e4e4e4);
+  width: 295px;
+  height: 1px;
+  position: absolute;
+  left: 32px;
+  top: 508px;
+}
+.group-979 {
+  width: 182px;
+  height: 19px;
+  position: static;
+}
+.follower-1 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 40px;
+  top: 474px;
+  overflow: hidden;
+}
+.group2 {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0.59px;
+  overflow: visible;
+}
+.add-another-account {
+  color: var(--black-80, #404040);
+  text-align: left;
+  font-family: "OpenSans-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  left: 80px;
+  top: 473px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.haripanen-id {
+  color: #60d9a7;
+  text-align: center;
+  font-family: "Sniglet-Regular", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  position: absolute;
+  left: 67px;
+  top: 154px;
+  width: 237px;
+  height: 20px;
+}
+.logo {
+  width: 45px;
+  height: 36px;
+  position: absolute;
+  left: 158px;
+  top: 114px;
+  overflow: hidden;
+}
+.group5 {
+  height: auto;
+  position: absolute;
+  right: 3%;
+  left: 7%;
+  width: 90%;
+  bottom: -23.3%;
+  top: 0%;
+  height: 123.3%;
+  overflow: visible;
+}

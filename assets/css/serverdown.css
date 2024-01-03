@@ -1,0 +1,339 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.frame-5881,
+.frame-5881 * {
+  box-sizing: border-box;
+}
+.frame-5881 {
+  background: #ffffff;
+  width: 358px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.group-25 {
+  position: absolute;
+  inset: 0;
+}
+.card {
+  background: #ffffff;
+  position: absolute;
+  right: 0%;
+  left: -0.56%;
+  width: 100.56%;
+  bottom: 89.38%;
+  top: 0%;
+  height: 10.62%;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.app-bar-black {
+  width: 360px;
+  height: 24px;
+  position: static;
+}
+.rectangle-6 {
+  position: absolute;
+  right: 0%;
+  left: -0.56%;
+  width: 100.56%;
+  bottom: 96.25%;
+  top: 0%;
+  height: 3.75%;
+}
+._5-37 {
+  color: #878b8d;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 0.98%;
+  left: 88.83%;
+  width: 10.2%;
+  bottom: 96.88%;
+  top: 0.94%;
+  height: 2.19%;
+}
+.shape {
+  width: 18.45px;
+  height: 14px;
+  position: absolute;
+  left: 220.03px;
+  top: 5px;
+  overflow: visible;
+}
+.ic-battery-charging-full-black-24-px {
+  width: 22.57px;
+  height: 17.44px;
+  position: absolute;
+  right: 10.04%;
+  left: 83.66%;
+  width: 6.31%;
+  bottom: 96.81%;
+  top: 0.47%;
+  height: 2.73%;
+  overflow: visible;
+}
+.ic-signal-wifi-off-black-24-px {
+  opacity: 0.5;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 16.48%;
+  left: 78.49%;
+  width: 5.03%;
+  bottom: 96.72%;
+  top: 0.47%;
+  height: 2.81%;
+  overflow: visible;
+}
+.rectangle {
+  background: #14181b;
+  position: absolute;
+  right: 25.84%;
+  left: 73.74%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-copy {
+  background: #14181b;
+  position: absolute;
+  right: 24.44%;
+  left: 75.14%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-copy-2 {
+  background: #14181b;
+  position: absolute;
+  right: 23.46%;
+  left: 76.12%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-2 {
+  background: #14181b;
+  position: absolute;
+  right: 24.02%;
+  left: 74.72%;
+  width: 1.26%;
+  bottom: 98.59%;
+  top: 1.17%;
+  height: 0.23%;
+}
+.rectangle-2-copy {
+  background: #14181b;
+  position: absolute;
+  right: 25.14%;
+  left: 73.74%;
+  width: 1.12%;
+  bottom: 97.42%;
+  top: 2.34%;
+  height: 0.23%;
+}
+.rectangle-2-copy-3 {
+  background: #14181b;
+  position: absolute;
+  right: 22.63%;
+  left: 76.12%;
+  width: 1.26%;
+  bottom: 97.42%;
+  top: 2.34%;
+  height: 0.23%;
+}
+.rectangle-2-copy-5 {
+  background: #14181b;
+  position: absolute;
+  right: 22.63%;
+  left: 76.12%;
+  width: 1.26%;
+  bottom: 98.59%;
+  top: 1.17%;
+  height: 0.23%;
+}
+.rectangle-2-copy-4 {
+  background: #14181b;
+  position: absolute;
+  right: 22.91%;
+  left: 76.12%;
+  width: 0.98%;
+  bottom: 98.05%;
+  top: 1.72%;
+  height: 0.23%;
+}
+.path-5 {
+  height: auto;
+  position: absolute;
+  right: 28.01%;
+  left: 70.42%;
+  width: 1.57%;
+  bottom: 97.03%;
+  top: 0.79%;
+  height: 2.18%;
+  overflow: visible;
+}
+.path-4 {
+  height: auto;
+  position: absolute;
+  right: 29.56%;
+  left: 68.02%;
+  width: 2.42%;
+  bottom: 97.03%;
+  top: 1.68%;
+  height: 1.29%;
+  overflow: visible;
+}
+.group {
+  width: 45px;
+  height: 17px;
+  position: static;
+}
+.pencarian-produk-terpopuler {
+  color: #14181b;
+  text-align: left;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  right: 83.8%;
+  left: 3.63%;
+  width: 12.57%;
+  bottom: 91.41%;
+  top: 5.94%;
+  height: 2.66%;
+}
+.pasar-gunungpati {
+  color: #14181b;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  position: absolute;
+  right: 8.38%;
+  left: 33.24%;
+  width: 58.38%;
+  bottom: 31.76%;
+  top: 64.49%;
+  height: 3.75%;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: -39.94%;
+  left: -30.73%;
+  width: 170.67%;
+  bottom: 23.03%;
+  top: 64.22%;
+  height: 12.75%;
+  overflow: visible;
+}
+.rectangle-29 {
+  background: #ffffff;
+  position: absolute;
+  right: 0.21%;
+  left: -1.98%;
+  width: 101.77%;
+  bottom: 12.03%;
+  top: 71.85%;
+  height: 16.12%;
+}
+.group-220 {
+  position: absolute;
+  inset: 0;
+}
+.group-29 {
+  width: 335.06px;
+  height: 40.85px;
+  position: absolute;
+  left: 16px;
+  top: 563px;
+  overflow: visible;
+}
+.group-221 {
+  width: 279.55px;
+  height: 25.53px;
+  position: static;
+}
+.bawa-ke-keranjang {
+  color: #42d2a9;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  right: 15.47%;
+  left: 15.75%;
+  width: 68.78%;
+  bottom: 7.72%;
+  top: 89.56%;
+  height: 2.71%;
+}
+.group-64 {
+  width: 25.3px;
+  height: 25.53px;
+  position: static;
+}
+.ellipse-4 {
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  right: 87.34%;
+  left: 7.12%;
+  width: 5.54%;
+  bottom: 7.21%;
+  top: 89.66%;
+  height: 3.13%;
+}
+.group-642 {
+  width: 25.3px;
+  height: 25.53px;
+  position: absolute;
+  right: 86.49%;
+  left: 6.44%;
+  width: 7.07%;
+  bottom: 6.92%;
+  top: 89.09%;
+  height: 3.99%;
+  overflow: visible;
+}
+.pasar-gunungpati2 {
+  color: #14181b;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  position: absolute;
+  right: 8.1%;
+  left: 33.52%;
+  width: 58.38%;
+  bottom: 30.31%;
+  top: 65.94%;
+  height: 3.75%;
+}
+.group-5723 {
+  height: auto;
+  position: absolute;
+  right: -18.16%;
+  left: 5.03%;
+  width: 113.13%;
+  bottom: 29.12%;
+  top: 5.31%;
+  height: 65.57%;
+  overflow: visible;
+}

@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.berhasil-hapus-alamat,
+.berhasil-hapus-alamat * {
+  box-sizing: border-box;
+}
+.berhasil-hapus-alamat {
+  background: #ffffff;
+  width: 358px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.group-25 {
+  position: absolute;
+  inset: 0;
+}
+.card {
+  background: #ffffff;
+  position: absolute;
+  right: 0%;
+  left: -0.56%;
+  width: 100.56%;
+  bottom: 89.38%;
+  top: 0%;
+  height: 10.62%;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.app-bar-black {
+  width: 360px;
+  height: 24px;
+  position: static;
+}
+.rectangle-6 {
+  position: absolute;
+  right: 0%;
+  left: -0.56%;
+  width: 100.56%;
+  bottom: 96.25%;
+  top: 0%;
+  height: 3.75%;
+}
+._5-37 {
+  color: #878b8d;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 0.98%;
+  left: 88.83%;
+  width: 10.2%;
+  bottom: 96.88%;
+  top: 0.94%;
+  height: 2.19%;
+}
+.shape {
+  width: 18.45px;
+  height: 14px;
+  position: absolute;
+  left: 220.03px;
+  top: 5px;
+  overflow: visible;
+}
+.ic-battery-charging-full-black-24-px {
+  width: 22.57px;
+  height: 17.44px;
+  position: absolute;
+  right: 10.04%;
+  left: 83.66%;
+  width: 6.31%;
+  bottom: 96.81%;
+  top: 0.47%;
+  height: 2.73%;
+  overflow: visible;
+}
+.ic-signal-wifi-off-black-24-px {
+  opacity: 0.5;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 16.48%;
+  left: 78.49%;
+  width: 5.03%;
+  bottom: 96.72%;
+  top: 0.47%;
+  height: 2.81%;
+  overflow: visible;
+}
+.rectangle {
+  background: #14181b;
+  position: absolute;
+  right: 25.84%;
+  left: 73.74%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-copy {
+  background: #14181b;
+  position: absolute;
+  right: 24.44%;
+  left: 75.14%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-copy-2 {
+  background: #14181b;
+  position: absolute;
+  right: 23.46%;
+  left: 76.12%;
+  width: 0.42%;
+  bottom: 97.42%;
+  top: 1.17%;
+  height: 1.41%;
+}
+.rectangle-2 {
+  background: #14181b;
+  position: absolute;
+  right: 24.02%;
+  left: 74.72%;
+  width: 1.26%;
+  bottom: 98.59%;
+  top: 1.17%;
+  height: 0.23%;
+}
+.rectangle-2-copy {
+  background: #14181b;
+  position: absolute;
+  right: 25.14%;
+  left: 73.74%;
+  width: 1.12%;
+  bottom: 97.42%;
+  top: 2.34%;
+  height: 0.23%;
+}
+.rectangle-2-copy-3 {
+  background: #14181b;
+  position: absolute;
+  right: 22.63%;
+  left: 76.12%;
+  width: 1.26%;
+  bottom: 97.42%;
+  top: 2.34%;
+  height: 0.23%;
+}
+.rectangle-2-copy-5 {
+  background: #14181b;
+  position: absolute;
+  right: 22.63%;
+  left: 76.12%;
+  width: 1.26%;
+  bottom: 98.59%;
+  top: 1.17%;
+  height: 0.23%;
+}
+.rectangle-2-copy-4 {
+  background: #14181b;
+  position: absolute;
+  right: 22.91%;
+  left: 76.12%;
+  width: 0.98%;
+  bottom: 98.05%;
+  top: 1.72%;
+  height: 0.23%;
+}
+.path-5 {
+  height: auto;
+  position: absolute;
+  right: 28.01%;
+  left: 70.42%;
+  width: 1.57%;
+  bottom: 97.03%;
+  top: 0.79%;
+  height: 2.18%;
+  overflow: visible;
+}
+.path-4 {
+  height: auto;
+  position: absolute;
+  right: 29.56%;
+  left: 68.02%;
+  width: 2.42%;
+  bottom: 97.03%;
+  top: 1.68%;
+  height: 1.29%;
+  overflow: visible;
+}
+.pasar-gunungpati {
+  color: #14181b;
+  text-align: center;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  position: absolute;
+  right: 8.38%;
+  left: 33.24%;
+  width: 58.38%;
+  bottom: 31.76%;
+  top: 64.49%;
+  height: 3.75%;
+}
+.vector {
+  height: auto;
+  position: absolute;
+  right: -39.94%;
+  left: -30.73%;
+  width: 170.67%;
+  bottom: 23.03%;
+  top: 64.22%;
+  height: 12.75%;
+  overflow: visible;
+}
+.rectangle-29 {
+  background: #ffffff;
+  position: absolute;
+  right: 0.21%;
+  left: -1.98%;
+  width: 101.77%;
+  bottom: 12.03%;
+  top: 71.85%;
+  height: 16.12%;
+}
+.pasar-gunungpati2 {
+  color: #14181b;
+  text-align: center;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  position: absolute;
+  right: 8.1%;
+  left: 33.52%;
+  width: 58.38%;
+  bottom: 30.31%;
+  top: 65.94%;
+  height: 3.75%;
+}
+.group-5723 {
+  height: auto;
+  position: absolute;
+  right: -18.16%;
+  left: 5.03%;
+  width: 113.13%;
+  bottom: 29.12%;
+  top: 5.31%;
+  height: 65.57%;
+  overflow: visible;
+}
+.group-5577 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-8767 {
+  background: #42b549;
+  border-radius: 4px;
+  width: 328px;
+  height: 43px;
+  position: absolute;
+  left: 18px;
+  top: 520px;
+  box-shadow: 0px 10px 15px 0px rgba(51, 131, 225, 0.2);
+}
+.kembali {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Black", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  position: absolute;
+  left: 151px;
+  top: 532px;
+}

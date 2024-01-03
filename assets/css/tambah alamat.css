@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  .alamat-saya-belum-pilih,
+  .alamat-saya-belum-pilih * {
+    box-sizing: border-box;
+  }
+  .alamat-saya-belum-pilih {
+    background: #ffffff;
+    width: 360px;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+  }
+  .base-appbar-rectangle {
+    width: 360px;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .rectangle {
+    height: auto;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+    overflow: visible;
+  }
+  .tambah-alamat {
+    color: #42b549;
+    text-align: right;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    position: absolute;
+    right: 4.44%;
+    left: 72.22%;
+    width: 23.33%;
+    bottom: 22.5%;
+    top: 58.75%;
+    height: 18.75%;
+  }
+  .icons-navigation-arrow-back {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 16px;
+    top: 40px;
+    overflow: visible;
+  }
+  .alamat-saya {
+    color: var(--black-80, #404040);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 52px;
+    top: 43px;
+  }
+  .group-5625 {
+    position: absolute;
+    inset: 0;
+  }
+  .group-5624 {
+    width: 328px;
+    height: 40px;
+    position: absolute;
+    left: 16px;
+    top: 96px;
+    overflow: visible;
+  }
+  .group-401 {
+    width: 97px;
+    height: 24px;
+    position: static;
+  }
+  .cari-sayur-bumbu-dapur-lauk-pauk {
+    color: var(--black-3, #a0a4a8);
+    text-align: left;
+    font-family: var(--field-f-1-12-font-family, "OpenSans-Regular", sans-serif);
+    font-size: var(--field-f-1-12-font-size, 12px);
+    line-height: var(--field-f-1-12-line-height, 16px);
+    font-weight: var(--field-f-1-12-font-weight, 400);
+    position: absolute;
+    left: 64px;
+    top: 108px;
+  }
+  .icons-actions-search {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 32px;
+    top: 104px;
+    overflow: visible;
+  }
+  .group-37023 {
+    position: absolute;
+    inset: 0;
+  }
+  .rectangle-8796 {
+    background: #ffffff;
+    border-radius: 8px;
+    width: 328px;
+    height: 200px;
+    position: absolute;
+    left: 16px;
+    top: 145px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .group-5628 {
+    width: 130px;
+    height: 23px;
+    position: static;
+  }
+  .group-5627 {
+    width: 130px;
+    height: 23px;
+    position: static;
+  }
+  .frame-4820 {
+    background: #ecf6fe;
+    border-radius: 8px;
+    padding: 4px 16px 4px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 205px;
+    top: 154px;
+    overflow: hidden;
+  }
+  .location-1 {
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    overflow: visible;
+  }
+  .alamat-utama {
+    color: #42b549;
+    text-align: right;
+    font-family: "Poppins-Black", sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    position: relative;
+  }
+  .group-5632 {
+    width: 285px;
+    height: 104px;
+    position: static;
+  }
+  .group-56282 {
+    width: 285px;
+    height: 104px;
+    position: static;
+  }
+  .group-56272 {
+    width: 285px;
+    height: 104px;
+    position: static;
+  }
+  .group-5626 {
+    width: 285px;
+    height: 104px;
+    position: static;
+  }
+  .jln-lempongsari-1-nomor-405 {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    left: 23px;
+    top: 240px;
+  }
+  .rumah {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    left: 23px;
+    top: 177px;
+  }
+  .mohammad-arkham-chadiar-jantra {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 23px;
+    top: 200px;
+  }
+  ._081228819994 {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 23px;
+    top: 220px;
+  }
+  .batununggal-kota-bandung-jawa-barat-40622 {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 23px;
+    top: 263px;
+  }
+  .group-5633 {
+    width: 250px;
+    height: 31px;
+    position: static;
+  }
+  .rectangle-8767 {
+    background: rgba(151, 151, 151, 0);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 250px;
+    height: 31px;
+    position: absolute;
+    left: 47px;
+    top: 305px;
+    box-shadow: 0px 10px 15px 0px rgba(51, 131, 225, 0.2);
+  }
+  .ubah-alamat {
+    color: #000000;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    left: 130px;
+    top: 311px;
+    width: 85px;
+    height: 15.88px;
+  }
+  .group-5577 {
+    position: absolute;
+    inset: 0;
+  }
+  .rectangle-87672 {
+    background: #979797;
+    border-radius: 4px;
+    width: 328px;
+    height: 43px;
+    position: absolute;
+    left: 16px;
+    top: 577px;
+    box-shadow: 0px 10px 15px 0px rgba(51, 131, 225, 0.2);
+  }
+  .pilih-alamat {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Poppins-Black", sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    position: absolute;
+    left: 135px;
+    top: 589px;
+  }
+  .group-37025 {
+    position: absolute;
+    inset: 0;
+  }
+  .group-37024 {
+    width: 328px;
+    height: 180px;
+    position: static;
+  }
+  .rectangle-87962 {
+    background: #ffffff;
+    border-radius: 8px;
+    width: 328px;
+    height: 180px;
+    position: absolute;
+    left: 16px;
+    top: 361px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .group-56332 {
+    width: 250px;
+    height: 31.77px;
+    position: static;
+  }
+  .rectangle-87673 {
+    background: rgba(151, 151, 151, 0);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 250px;
+    height: 31.77px;
+    position: absolute;
+    left: 47px;
+    top: 500px;
+    box-shadow: 0px 10px 15px 0px rgba(51, 131, 225, 0.2);
+  }
+  .ubah-alamat2 {
+    color: #000000;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    left: 130px;
+    top: 506.15px;
+    width: 85px;
+    height: 16.27px;
+  }
+  .group-5629 {
+    width: 340px;
+    height: 104px;
+    position: static;
+  }
+  .group-56273 {
+    width: 340px;
+    height: 104px;
+    position: static;
+  }
+  .group-56262 {
+    width: 340px;
+    height: 104px;
+    position: static;
+  }
+  .jln-kaliurang-1-nomor-4-rumah-warna-biru {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    left: 20px;
+    top: 452px;
+    width: 340px;
+  }
+  .kantor {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    left: 20px;
+    top: 389px;
+    width: 51.42px;
+  }
+  .chadiar-jantra {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 20px;
+    top: 412px;
+    width: 98.64px;
+  }
+  ._081228815594 {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 20px;
+    top: 432px;
+    width: 89.2px;
+  }
+  .baturaden-semarang-jawa-tengah-40622 {
+    color: var(--black-1, #25282b);
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    left: 20px;
+    top: 475px;
+    width: 271.79px;
+  }
+  

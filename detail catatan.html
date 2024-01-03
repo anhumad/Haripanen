@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/detail catatan.css" />
+
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        appearance: none;
+        background: none;
+
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="detail-menu-tambahkan-catatan">
+      <img class="rectangle-3" src="rectangle-30.png" />
+      <svg
+        class="base-appbar-rectangle"
+        width="360"
+        height="90"
+        viewBox="0 0 360 90"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_d_47_7835)">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M0 0H360V80H0V0Z"
+            fill="white"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_d_47_7835"
+            x="-8"
+            y="-6"
+            width="376"
+            height="96"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="2" />
+            <feGaussianBlur stdDeviation="4" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_47_7835"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_47_7835"
+              result="shape"
+            />
+          </filter>
+        </defs>
+      </svg>
+    
+      <svg
+        class="icons-navigation-arrow-back"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.0156 11.0156V12.9844H7.82812L13.4062 18.6094L12 20.0156L3.98438 12L12 3.98438L13.4062 5.39062L7.82812 11.0156H20.0156Z"
+          fill="#52575C"
+        />
+      </svg>
+    
+      <div class="detail-menu">Detail Menu</div>
+      <div class="android-ui-status-bar-light">
+        <div class="android-ui-status-bar-dark">
+          <svg
+            class="background"
+            width="360"
+            height="24"
+            viewBox="0 0 360 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0 0V24H360V0H0Z"
+              fill="white"
+              fill-opacity="0.5"
+            />
+          </svg>
+    
+          <div class="_11-11">11:11</div>
+          <svg
+            class="icons-device-network-wifi"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15.3281 8.19141L15.3633 8.22656L9 16.1016L2.63672 8.22656C2.63672 8.22656 2.64844 8.21484 2.67188 8.19141L0.28125 5.23828C3.11719 3.24609 6.02344 2.25 9 2.25C11.9766 2.25 14.8828 3.24609 17.7188 5.23828L15.3281 8.19141Z"
+              fill="black"
+              fill-opacity="0.54"
+            />
+          </svg>
+    
+          <svg
+            class="icons-device-signal-cellular-4-bar"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.51172 16.4883L16.4883 1.51172V16.4883H1.51172Z"
+              fill="black"
+              fill-opacity="0.54"
+            />
+          </svg>
+    
+          <svg
+            class="icons-device-battery-full"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.7422 2.98828C12.0234 2.98828 12.2578 3.09375 12.4453 3.30469C12.6562 3.49219 12.7617 3.72656 12.7617 4.00781V15.5039C12.7617 15.7852 12.6562 16.0195 12.4453 16.207C12.2578 16.3945 12.0234 16.4883 11.7422 16.4883H6.25781C5.97656 16.4883 5.73047 16.3945 5.51953 16.207C5.33203 16.0195 5.23828 15.7852 5.23828 15.5039V4.00781C5.23828 3.72656 5.33203 3.49219 5.51953 3.30469C5.73047 3.09375 5.97656 2.98828 6.25781 2.98828H7.48828V1.51172H10.5117V2.98828H11.7422Z"
+              fill="black"
+              fill-opacity="0.54"
+            />
+          </svg>
+        </div>
+      </div>
+      <svg
+        class="group-168"
+        width="70"
+        height="16"
+        viewBox="0 0 70 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_d_47_7863)">
+          <circle cx="8" cy="7" r="3" fill="#2F9CF1" />
+        </g>
+        <g filter="url(#filter1_d_47_7863)">
+          <circle cx="22" cy="7" r="3" fill="#2F9CF1" />
+        </g>
+        <g filter="url(#filter2_d_47_7863)">
+          <circle cx="34" cy="7" r="3" fill="#2F9CF1" fill-opacity="0.8" />
+        </g>
+        <g filter="url(#filter3_d_47_7863)">
+          <circle cx="48" cy="7" r="3" fill="#2F9CF1" fill-opacity="0.6" />
+        </g>
+        <g filter="url(#filter4_d_47_7863)">
+          <circle cx="62" cy="7" r="3" fill="#2F9CF1" fill-opacity="0.4" />
+        </g>
+        <path d="M8 4H22V10H8V4Z" fill="#2F9CF1" />
+        <defs>
+          <filter
+            id="filter0_d_47_7863"
+            x="0"
+            y="0"
+            width="16"
+            height="16"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="1" />
+            <feGaussianBlur stdDeviation="2.5" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_47_7863"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_47_7863"
+              result="shape"
+            />
+          </filter>
+          <filter
+            id="filter1_d_47_7863"
+            x="14"
+            y="0"
+            width="16"
+            height="16"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="1" />
+            <feGaussianBlur stdDeviation="2.5" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_47_7863"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_47_7863"
+              result="shape"
+            />
+          </filter>
+          <filter
+            id="filter2_d_47_7863"
+            x="26"
+            y="0"
+            width="16"
+            height="16"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="1" />
+            <feGaussianBlur stdDeviation="2.5" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_47_7863"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_47_7863"
+              result="shape"
+            />
+          </filter>
+          <filter
+            id="filter3_d_47_7863"
+            x="40"
+            y="0"
+            width="16"
+            height="16"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="1" />
+            <feGaussianBlur stdDeviation="2.5" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_47_7863"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_47_7863"
+              result="shape"
+            />
+          </filter>
+          <filter
+            id="filter4_d_47_7863"
+            x="54"
+            y="0"
+            width="16"
+            height="16"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feColorMatrix
+              in="SourceAlpha"
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              result="hardAlpha"
+            />
+            <feOffset dy="1" />
+            <feGaussianBlur stdDeviation="2.5" />
+            <feColorMatrix
+              type="matrix"
+              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.05 0"
+            />
+            <feBlend
+              mode="normal"
+              in2="BackgroundImageFix"
+              result="effect1_dropShadow_47_7863"
+            />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="effect1_dropShadow_47_7863"
+              result="shape"
+            />
+          </filter>
+        </defs>
+      </svg>
+    
+      <div class="dafam-special-prawn-cocktail">Dafam Special Prawn Cocktail</div>
+      <div class="diskon-15">Diskon 15%</div>
+      <div class="rp-43-000">Rp43.000</div>
+      <div class="rp-67-000">Rp67.000</div>
+      <div class="rectangle-559"></div>
+      <div class="rectangle-560"></div>
+      <div class="rectangle-561"></div>
+      <div class="buy-products-related">Deskripsi:</div>
+      <div class="buy-products-related2">
+        Shrimp Cocktail atau salad udang. Rasa udang yang lembut cocok dipadukan
+        dengan salad dan saus dari campuran mayones dan saus tomat.
+      </div>
+      <div class="buy-products-related3">Tambahkan catatan</div>
+      <div class="group-4868">
+        <div class="modal-button-background">
+          <div class="bg"></div>
+        </div>
+        <div class="btn-big">
+          <svg
+            class="rectangle-4"
+            width="358"
+            height="61"
+            viewBox="0 0 358 61"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_d_47_7884)">
+              <path
+                d="M15 10C15 7.23858 17.2386 5 20 5H338C340.761 5 343 7.23858 343 10V48C343 50.7614 340.761 53 338 53H20C17.2386 53 15 50.7614 15 48V10Z"
+                fill="#2F9CF1"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_d_47_7884"
+                x="0"
+                y="0"
+                width="358"
+                height="78"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha"
+                />
+                <feOffset dy="10" />
+                <feGaussianBlur stdDeviation="7.5" />
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0.19875 0 0 0 0 0.513658 0 0 0 0 0.883333 0 0 0 0.2 0"
+                />
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow_47_7884"
+                />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow_47_7884"
+                  result="shape"
+                />
+              </filter>
+            </defs>
+          </svg>
+    
+          <div class="pesan">Pesan</div>
+        </div>
+      </div>
+      <div class="group-4866">
+        <svg
+          class="rectangle-4-1"
+          width="73"
+          height="26"
+          viewBox="0 0 73 26"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M73 10C73 4.47715 68.5228 0 63 0H0V21C0 23.7614 2.23858 26 5 26H73V10Z"
+            fill="#FF6160"
+          />
+        </svg>
+    
+        <div class="pilihan-servis">Disk. 15%</div>
+      </div>
+      <svg
+        class="rectangle-2-1"
+        width="360"
+        height="176"
+        viewBox="0 0 360 176"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0 0H360V176H0V0Z" fill="#161414" fill-opacity="0.9" />
+      </svg>
+    
+      <div class="android-ui-keyboards-qwerty">
+        <div class="android-ui-keyboards-keyboard-lowercase-light">
+          <div class="background2"></div>
+          <div class="_123">
+            <span>
+              <span class="_123-span">?</span>
+              <span class="_123-span2">123</span>
+            </span>
+          </div>
+          <div class="div">.</div>
+          <div class="a">a</div>
+          <div class="s">s</div>
+          <div class="z">z</div>
+          <div class="div2">/</div>
+          <div class="x">x</div>
+          <div class="c">c</div>
+          <div class="v">v</div>
+          <div class="b">b</div>
+          <div class="m">m</div>
+          <div class="n">n</div>
+          <div class="d">d</div>
+          <div class="f">f</div>
+          <div class="g">g</div>
+          <div class="h">h</div>
+          <div class="j">j</div>
+          <div class="k">k</div>
+          <div class="l">l</div>
+          <div class="q-1">
+            <div class="q">q</div>
+            <div class="_1">1</div>
+          </div>
+          <div class="w-2">
+            <div class="_2">2</div>
+            <div class="w">w</div>
+          </div>
+          <div class="e-3">
+            <div class="_3">3</div>
+            <div class="e">e</div>
+          </div>
+          <div class="r-4">
+            <div class="_4">4</div>
+            <div class="r">r</div>
+          </div>
+          <div class="r-5">
+            <div class="_5">5</div>
+            <div class="t">t</div>
+          </div>
+          <div class="y-6">
+            <div class="_6">6</div>
+            <div class="y">y</div>
+          </div>
+          <div class="u-7">
+            <div class="_7">7</div>
+            <div class="u">u</div>
+          </div>
+          <div class="i-8">
+            <div class="_8">8</div>
+            <div class="i">i</div>
+          </div>
+          <div class="o-9">
+            <div class="_9">9</div>
+            <div class="o">o</div>
+          </div>
+          <div class="p-0">
+            <div class="_0">0</div>
+            <div class="p">p</div>
+          </div>
+          <svg
+            class="backspace"
+            width="25"
+            height="20"
+            viewBox="0 0 25 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_47_7942)">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M10.7071 6.2928C11.0976 5.90228 11.7308 5.90228 12.1213 6.2928L18.7071 12.8786C19.0976 13.2691 19.0976 13.9023 18.7071 14.2928C18.3166 14.6833 17.6834 14.6833 17.2929 14.2928L10.7071 7.70701C10.3166 7.31649 10.3166 6.68332 10.7071 6.2928Z"
+                fill="#4A5B64"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M18.2929 6.2928C17.9024 5.90228 17.2692 5.90228 16.8787 6.2928L10.2929 12.8786C9.9024 13.2691 9.9024 13.9023 10.2929 14.2928C10.6834 14.6833 11.3166 14.6833 11.7071 14.2928L18.2929 7.70701C18.6834 7.31649 18.6834 6.68332 18.2929 6.2928Z"
+                fill="#4A5B64"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.58537 2L2.38537 10L7.58537 18H22C22.5523 18 23 17.5523 23 17V3C23 2.44772 22.5523 2 22 2H7.58537ZM6.5 20L0 10L6.5 0H22C23.6569 0 25 1.34315 25 3V17C25 18.6569 23.6569 20 22 20H6.5Z"
+                fill="#4A5B64"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_47_7942">
+                <rect width="25" height="20" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+    
+          <div class="space-bar"></div>
+          <svg
+            class="shift"
+            width="24"
+            height="21"
+            viewBox="0 0 24 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_47_7945)">
+              <path
+                d="M18.0556 13H17.0556V14V19C17.0556 19.5523 16.6079 20 16.0556 20H8.00004C7.44776 20 7.00004 19.5523 7.00004 19V14V13H6.00004H2.70699C1.82482 13 1.37481 11.9409 1.98715 11.3059L11.5253 1.41444L21.7438 11.2806C22.3909 11.9053 21.9486 13 21.0492 13H18.0556Z"
+                stroke="#4A5B64"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_47_7945">
+                <rect width="24" height="21" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+    
+          <svg
+            class="icons-social-sentiment-satisfied"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.53125 14.0156C9.3125 15.3281 10.4688 15.9844 12 15.9844C13.5312 15.9844 14.6875 15.3281 15.4688 14.0156H17.1094C16.7031 15.0469 16.0312 15.8906 15.0938 16.5469C14.1875 17.1719 13.1562 17.4844 12 17.4844C10.8438 17.4844 9.79688 17.1719 8.85938 16.5469C7.95312 15.8906 7.29688 15.0469 6.89062 14.0156H8.53125ZM6.32812 17.6719C7.92188 19.2344 9.8125 20.0156 12 20.0156C14.1875 20.0156 16.0625 19.2344 17.625 17.6719C19.2188 16.0781 20.0156 14.1875 20.0156 12C20.0156 9.8125 19.2188 7.9375 17.625 6.375C16.0625 4.78125 14.1875 3.98438 12 3.98438C9.8125 3.98438 7.92188 4.78125 6.32812 6.375C4.76562 7.9375 3.98438 9.8125 3.98438 12C3.98438 14.1875 4.76562 16.0781 6.32812 17.6719ZM4.92188 4.96875C6.89062 3 9.25 2.01562 12 2.01562C14.75 2.01562 17.0938 3 19.0312 4.96875C21 6.90625 21.9844 9.25 21.9844 12C21.9844 14.75 21 17.1094 19.0312 19.0781C17.0938 21.0156 14.75 21.9844 12 21.9844C9.25 21.9844 6.89062 21.0156 4.92188 19.0781C2.98438 17.1094 2.01562 14.75 2.01562 12C2.01562 9.25 2.98438 6.90625 4.92188 4.96875ZM7.40625 10.5938C7.125 10.2812 6.98438 9.92188 6.98438 9.51562C6.98438 9.10938 7.125 8.76562 7.40625 8.48438C7.71875 8.17188 8.07812 8.01562 8.48438 8.01562C8.89062 8.01562 9.23438 8.17188 9.51562 8.48438C9.82812 8.76562 9.98438 9.10938 9.98438 9.51562C9.98438 9.92188 9.82812 10.2812 9.51562 10.5938C9.23438 10.875 8.89062 11.0156 8.48438 11.0156C8.07812 11.0156 7.71875 10.875 7.40625 10.5938ZM14.4375 10.5938C14.1562 10.2812 14.0156 9.92188 14.0156 9.51562C14.0156 9.10938 14.1562 8.76562 14.4375 8.48438C14.75 8.17188 15.1094 8.01562 15.5156 8.01562C15.9219 8.01562 16.2656 8.17188 16.5469 8.48438C16.8594 8.76562 17.0156 9.10938 17.0156 9.51562C17.0156 9.92188 16.8594 10.2812 16.5469 10.5938C16.2656 10.875 15.9219 11.0156 15.5156 11.0156C15.1094 11.0156 14.75 10.875 14.4375 10.5938Z"
+              fill="#666666"
+            />
+          </svg>
+    
+          <svg
+            class="android-ui-keyboards-buttons-return-search"
+            width="34"
+            height="34"
+            viewBox="0 0 34 34"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="17" cy="17" r="17" fill="#4DB6AC" />
+            <path
+              d="M20.5 19H19.71L19.43 18.73C20.41 17.59 21 16.11 21 14.5C21 10.91 18.09 8 14.5 8C10.91 8 8 10.91 8 14.5C8 18.09 10.91 21 14.5 21C16.11 21 17.59 20.41 18.73 19.43L19 19.71V20.5L24 25.49L25.49 24L20.5 19ZM14.5 19C12.01 19 10 16.99 10 14.5C10 12.01 12.01 10 14.5 10C16.99 10 19 12.01 19 14.5C19 16.99 16.99 19 14.5 19Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+        <div class="android-ui-keyboards-g-search-light">
+          <div class="android-ui-keyboards-g-search-dark">
+            <div class="background3"></div>
+            <div class="g-search">
+              <div class="ellipse6"></div>
+              <svg
+                class="g-icon"
+                width="18"
+                height="19"
+                viewBox="0 0 18 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18 9.38779C18 8.63269 17.9387 8.08167 17.8061 7.51025H9.18365V10.9184H14.2448C14.1428 11.7653 13.5918 13.0409 12.3673 13.898L12.3501 14.0121L15.0764 16.1241L15.2653 16.1429C16.9999 14.5408 18 12.1837 18 9.38779Z"
+                  fill="#4285F4"
+                />
+                <path
+                  d="M9.18366 18.3673C11.6632 18.3673 13.7448 17.551 15.2653 16.1429L12.3673 13.8979C11.5918 14.4387 10.551 14.8163 9.18366 14.8163C6.7551 14.8163 4.69389 13.2143 3.95913 11L3.85143 11.0091L1.01663 13.203L0.979553 13.3061C2.48974 16.3061 5.59179 18.3673 9.18366 18.3673Z"
+                  fill="#34A853"
+                />
+                <path
+                  d="M3.95914 11.0001C3.76527 10.4287 3.65307 9.81638 3.65307 9.18376C3.65307 8.55107 3.76527 7.93885 3.94894 7.36742L3.94381 7.24573L1.07348 5.0166L0.979568 5.06127C0.357147 6.30619 0 7.70417 0 9.18376C0 10.6633 0.357147 12.0613 0.979568 13.3062L3.95914 11.0001Z"
+                  fill="#FBBC05"
+                />
+                <path
+                  d="M9.18366 3.551C10.9081 3.551 12.0714 4.29589 12.7347 4.91838L15.3265 2.38776C13.7347 0.908167 11.6632 0 9.18366 0C5.59179 0 2.48974 2.06121 0.979553 5.06119L3.94893 7.36734C4.69389 5.15306 6.7551 3.551 9.18366 3.551Z"
+                  fill="#EB4335"
+                />
+              </svg>
+            </div>
+            <svg
+              class="microphone"
+              width="11"
+              height="18"
+              viewBox="0 0 11 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect x="3" width="5" height="11" rx="2.5" fill="#4A5B64" />
+              <path
+                d="M10 8.5C10 11.2723 7.98528 13.5196 5.5 13.5196M5.5 13.5196C3.01472 13.5196 1 11.2723 1 8.5M5.5 13.5196V16.5"
+                stroke="#4A5B64"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="group-4871">
+        <div class="group-4869">
+          <div class="bg2"></div>
+          <div class="dismiss-slide"></div>
+        </div>
+        <div class="field-border"></div>
+        <div class="label">Yang agak muda ya</div>
+        <div class="group-4870">
+          <div class="counter">0/200</div>
+          <a href="detail terisi catatan.html"
+          <div class="btn-small">
+            <svg
+              class="rectangle-42"
+              width="102"
+              height="56"
+              viewBox="0 0 102 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_d_47_7972)">
+                <path
+                  d="M15 15C15 12.2386 17.2386 10 20 10H82C84.7614 10 87 12.2386 87 15V31C87 33.7614 84.7614 36 82 36H20C17.2386 36 15 33.7614 15 31V15Z"
+                  fill="#42B549"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_47_7972"
+                  x="0"
+                  y="0"
+                  width="102"
+                  height="56"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset dy="5" />
+                  <feGaussianBlur stdDeviation="7.5" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.1875 0 0 0 0 0.729 0 0 0 0 0.9 0 0 0 0.2 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_47_7972"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_47_7972"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+    
+            <div class="selesai">Selesai</div>
+          </div>
+        </div>
+        <div class="counter2">Tambahkan Catatan</div>
+      </div>
+    </div>
+    
+  </body>
+</html>

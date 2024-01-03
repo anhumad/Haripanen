@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.detail-produk,
+.detail-produk * {
+  box-sizing: border-box;
+}
+.detail-produk {
+  background: #ffffff;
+  width: 360px;
+  height: 640px;
+  position: relative;
+  overflow: hidden;
+}
+.base-appbar-rectangle {
+  width: 360px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.detail-produk2 {
+  color: #262626;
+  text-align: left;
+  font-family: "AvenirNext-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  right: 57.78%;
+  left: 17.78%;
+  width: 24.44%;
+  bottom: 90.31%;
+  top: 6.72%;
+  height: 2.97%;
+}
+.android-ui-status-bar-light {
+  width: 360px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.android-ui-status-bar-dark {
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.background {
+  height: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: visible;
+}
+._11-11 {
+  color: rgba(0, 0, 0, 0.54);
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 8px;
+  top: calc(50% - 8px);
+  width: 37px;
+}
+.icons-device-network-wifi {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 86px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-device-signal-cellular-4-bar {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 66px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.icons-device-battery-full {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 46px;
+  top: calc(50% - 9px);
+  overflow: visible;
+}
+.rectangle-3 {
+  background: var(
+    --skeleton-2,
+    linear-gradient(
+      89.82deg,
+      rgba(240, 240, 240, 1) 0%,
+      rgba(250, 250, 250, 1) 100%
+    )
+  );
+  width: 360px;
+  height: 160px;
+  position: absolute;
+  left: 0px;
+  top: 80px;
+}
+.rectangle-8718 {
+  background: var(
+    --skeleton-2,
+    linear-gradient(
+      89.82deg,
+      rgba(240, 240, 240, 1) 0%,
+      rgba(250, 250, 250, 1) 100%
+    )
+  );
+  border-radius: 4px;
+  width: 328px;
+  height: 19px;
+  position: absolute;
+  left: 16px;
+  top: 256px;
+}
+.rectangle-8719 {
+  background: var(
+    --skeleton-2,
+    linear-gradient(
+      89.82deg,
+      rgba(240, 240, 240, 1) 0%,
+      rgba(250, 250, 250, 1) 100%
+    )
+  );
+  border-radius: 4px;
+  width: 110px;
+  height: 16px;
+  position: absolute;
+  left: 16px;
+  top: 283px;
+}
+.rectangle-559 {
+  background: var(--black-5, #e8e8e8);
+  border-radius: 5px;
+  width: 328px;
+  height: 1px;
+  position: absolute;
+  left: 16px;
+  top: 315px;
+}
+.rectangle-560 {
+  background: var(--black-5, #e8e8e8);
+  border-radius: 5px;
+  width: 328px;
+  height: 1px;
+  position: absolute;
+  left: 16px;
+  top: 425px;
+}
+.rectangle-561 {
+  background: var(--black-5, #e8e8e8);
+  border-radius: 5px;
+  width: 328px;
+  height: 1px;
+  position: absolute;
+  left: 16px;
+  top: 478px;
+}
+.buy-products-related {
+  color: var(--black-1, #25282b);
+  text-align: left;
+  font-family: "AvenirNext-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: absolute;
+  right: 80.28%;
+  left: 4.44%;
+  width: 15.28%;
+  top: calc(50% - -12px);
+}
+.rectangle-8720 {
+  background: var(
+    --skeleton-2,
+    linear-gradient(
+      89.82deg,
+      rgba(240, 240, 240, 1) 0%,
+      rgba(250, 250, 250, 1) 100%
+    )
+  );
+  border-radius: 4px;
+  width: 328px;
+  height: 12px;
+  position: absolute;
+  left: 16px;
+  top: 357px;
+}
+.rectangle-8721 {
+  background: var(
+    --skeleton-2,
+    linear-gradient(
+      89.82deg,
+      rgba(240, 240, 240, 1) 0%,
+      rgba(250, 250, 250, 1) 100%
+    )
+  );
+  border-radius: 4px;
+  width: 328px;
+  height: 12px;
+  position: absolute;
+  left: 16px;
+  top: 377px;
+}
+.rectangle-8722 {
+  background: var(
+    --skeleton-2,
+    linear-gradient(
+      89.82deg,
+      rgba(240, 240, 240, 1) 0%,
+      rgba(250, 250, 250, 1) 100%
+    )
+  );
+  border-radius: 4px;
+  width: 164px;
+  height: 12px;
+  position: absolute;
+  left: 16px;
+  top: 397px;
+}
+.buy-products-related2 {
+  color: #42b549;
+  text-align: left;
+  font-family: "Avenir-Roman", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  right: 61.67%;
+  left: 4.44%;
+  width: 33.89%;
+  top: calc(50% - -122px);
+}
